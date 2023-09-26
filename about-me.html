@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <!--Call script-->
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/menu.js" defer></script>
+    <!--Copyright, Publisher, Autor-->
+    <meta name="authors" content="Darwin Paz & Matthias Majowski">
+    <meta name="publisher" content="Darwin Paz & Matthias Majowski">
+    <meta name="copyright" content="© D.Paz & M.Majowski">
+    <!--Beschreibung der Seite-->
+    <meta name="description" content="Seitenbeschreibung.">
+    <!--Marketing Keywords-->
+    <meta name="keywords" content="keywords">
+
+    <!--Google-Robots zur Indexierung-->
+    <meta name="robots" content="index, follow">
+    <!--Google darf die Seite nich indexieren-->
+    <meta name="robots" content="noindex, nofollow">
+    <!--Favicon-->
+    <link rel="icon" type="favicon" href="assets/img/favicon-2.png" />
+    <!--Styles-->
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/scroll.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <!--Title-->
+    <title>CV - LF10aV2</title>
+</head>
+
+<body>
+    
+    <!--LAYOUT-->
+    <div class="layout">
+
+        <!--side container (info user)-->
+        <aside class="layout__aside">
+        
+            <section class="aside__user-info">
+
+                <!--information user-->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <!--User image-->
+                        <img src="assets/img/default-user.jpg" class="user-info__image" alt="Image user">
+                    </div>
+                    <!--Name + job-->
+                    <h2 class="user-info__name">Alexio Mustermann</h2>
+                    <h4 class="user-info__job">DEV</h4>
+                </div>
+
+                <!--MENU NAV-->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+                    
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="about-me.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">About me</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="curriculum.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Curriculum</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="portfolio.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Portfolio</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="blog.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-book"></i>
+                                <span class="menu__overlay">Blog</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="contact.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contact</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="impressum.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-scale-unbalanced"></i>
+                                <span class="menu__overlay">Impressum</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="datenschutz.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-shield-halved"></i>
+                                <span class="menu__overlay">Datenschutz</span>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+
+                <!--SOCIALS-->
+                <div class="user-info__user-links">
+
+                    <ul class="links__social">
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--BTN DOWNLOAD CV-->
+                <div class="user-info__buttons">
+                    <a download="download" href="assets/pdf/ec-it-book.pdf" class="user-info__btn">Download CV</a>
+                </div>
+
+            <!--FOOTER-->
+            <footer class="user-info__footer">
+                &copy; 2023 D.Paz & M.Majowski | All rights reserved <Br/>Design by LF10aV2
+            </footer>
+            </section>
+        </aside>
+
+        <!--MENU NAV RESPONSIVE-->
+        <div class="layout__menu-toggle">
+            <i class="menu-toggle__icon fa-solid fa-bars"></i>
+            <i class="menu-toggle__icon fa-solid fa-xmark"></i>
+        </div>
+
+        <!--MAIN CONTENT-->
+        <main class="layout__content">
+            
+            <!--THIS CONTENT CHANGES ON EACH PAGE OF THE WEBSITE-->
+            <section class="content__page content__about">
+                <header class="about__header">
+                    <h1 class="about__title">About <span class="title__color">me</span></h1>
+                </header>
+
+                <section class="about__personal-info">
+                    <article class="personal-info__biography">
+                        <p class="personal-info__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae aliquam reiciendis totam enim sequi architecto accusamus ipsam nihil. Nobis assumenda voluptatibus modi ipsam cum provident numquam aliquam eius blanditiis error!
+                            Quo accusantium voluptatibus repellat dolores temporibus eum eligendi inventore? Deserunt omnis explicabo, consequuntur illo adipisci repellat nihil et consequatur aliquid molestiae eius quod.
+                        </p>
+                    </article>
+                    
+                    <!--PERSONAL DATA-->
+                    <div class="personal-info__data">
+                        <ul class="personal-info__list">
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Alter</span>
+                                <span class="personal-info__value">33</span>
+                            </li>
+
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Land</span>
+                                <span class="personal-info__value">Germany</span>
+                            </li>
+
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Stadt</span>
+                                <span class="personal-info__value">Darmstadt</span>
+                            </li>
+
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Adresse</span>
+                                <span class="personal-info__value">Am Herrnacker 80 | 64293</span>
+                            </li>
+
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">E-mail</span>
+                                <span class="personal-info__value">alexio@mustermann.com</span>
+                            </li>
+
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Telefon</span>
+                                <span class="personal-info__value">666 777 888</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </section>
+
+                <!--SERVICES-->
+                <section class="about__services">
+                    <header class="services__header">
+                        <h2 class="services__title">My <span class="title__color">services</span></h2>
+                    </header>
+
+                    <div class="services__container">
+
+                        <!--SERVICES #1-->
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-angles-right"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h3 class="service__title">Programmierung</h3>
+                                <p class="service__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolorem sit eveniet voluptate,lum dolores id velit deleniti officiis modi quisquam at! Neque
+
+                                </p>
+                            </div>
+                        </article>
+
+                        <!--SERVICES #2-->
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-angles-right"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h3 class="service__title">Web Entwicklung</h3>
+                                <p class="service__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolorem sit eveniet voluptate,lum dolores id velit deleniti officiis modi quisquam at! Neque
+
+                                </p>
+                            </div>
+                        </article>
+
+                        <!--SERVICES #3-->
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-angles-right"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h3 class="service__title">Grafikdesign</h3>
+                                <p class="service__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolorem sit eveniet voluptate,lum dolores id velit deleniti officiis modi quisquam at! Neque
+
+                                </p>
+                            </div>
+                        </article>
+
+                        <!--SERVICES #4-->
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-angles-right"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h3 class="service__title">Systemadministration</h3>
+                                <p class="service__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolorem sit eveniet voluptate,lum dolores id velit deleniti officiis modi quisquam at! Neque
+
+                                </p>
+                            </div>
+                        </article>
+
+                    </div>
+                </section>
+
+                <!--REVIEWS-->
+                <section class="about__reviews">
+                    <header class="reviews__header">
+                        <h2 class="reviews__title">Reviews</h2>
+                    </header>
+
+                    <!--REVIEWS CONTAINER-->
+                    <div class="reviews__container">
+                        <article class="reviews__review">
+
+                            <!--REVIEWS IMG # 1-->
+                            <div class="review__img-container">
+                                <img src="assets/img/testimonio1.png" class="review__image" alt="client-1">
+                            </div>
+                            <!--REVIEWS DESCRIPTION-->
+                        <div class="review__description">
+                            <p class="review__text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                        <!--REVIEWS AUTHOR-->
+                        <div class="review__author">
+                            <h4 class="review__name">Anna Mustermann</h4>
+                            <h5 class="review__company">Developers S.A</h5>
+                        </div>
+                        <!--REVIEWS AUTHOR ICON-->
+                        <div class="review__author-icon">
+                            <i class="review__icon fa-solid fa-quote-right"></i>
+                        </div>
+                        </article>
+
+                        <!--REVIEWS AUTHOR # 2-->
+                        <article class="reviews__review">
+
+                            <!--REVIEWS IMG # 2-->
+                            <div class="review__img-container">
+                                <img src="assets/img/testimonio2.png" class="review__image" alt="client-1">
+                            </div>
+                            <!--REVIEWS DESCRIPTION # 2-->
+                        <div class="review__description">
+                            <p class="review__text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                        <!--REVIEWS AUTHOR # 2-->
+                        <div class="review__author">
+                            <h4 class="review__name">Uwe Mustermann</h4>
+                            <h5 class="review__company">Fullstack S.L</h5>
+                        </div>
+                        <!--REVIEWS AUTHOR ICON-->
+                        <div class="review__author-icon">
+                            <i class="review__icon fa-solid fa-quote-right"></i>
+                        </div>
+
+                        </article>
+                    </div>
+                </section>
+
+                <!--CLIENTS-->
+                <section class="about__clients">
+                    <header class="clients__header">
+                        <h2 class="clients__title">Clients</h2>
+
+                        <!--CLIENTS CONTAINER-->
+                        <div class="clients__container">
+
+                            <!--CLIENT # 1-->
+                            <article class="clients__item">
+                                <a href="#" class="clients__link">
+                                    <img src="assets/img/cliente-1.png"  class="clients__image" alt="Logo-client">
+                                </a>
+                            </article>
+
+                            <!--CLIENT # 2-->
+                            <article class="clients__item">
+                                <a href="#" class="clients__link">
+                                    <img src="assets/img/cliente-2.png"  class="clients__image" alt="Logo-client">
+                                </a>
+                            </article>
+
+                            <!--CLIENT # 3-->
+                            <article class="clients__item">
+                                <a href="#" class="clients__link">
+                                    <img src="assets/img/cliente-1.png"  class="clients__image" alt="Logo-client">
+                                </a>
+                            </article>
+
+                            <!--CLIENT # 4-->
+                            <article class="clients__item">
+                                <a href="#" class="clients__link">
+                                    <img src="assets/img/cliente-2.png"  class="clients__image" alt="Logo-client">
+                                </a>
+                            </article>
+
+                            <!--CLIENT # 5-->
+                            <article class="clients__item">
+                                <a href="#" class="clients__link">
+                                    <img src="assets/img/cliente-1.png"  class="clients__image" alt="Logo-client">
+                                </a>
+                            </article>
+
+                        </div>
+                    </header>
+                </section>
+
+                <!--PRICES-->
+                <section class="about__prices">
+
+                    <head class="prices__header">
+                        <h2 class="prices__title">Prices</h2>
+                    </head>
+                    <!--PRICES CONTAINER-->
+                    <div class="prices__container">
+
+                        <!--CONTAINER # 1-->
+                        <article class="prices__box">
+                            <div class="prices__subtitle">
+                                <span class="prices__text">Normal</span>
+                            </div>
+
+                            <div class="prices__price">
+                                <span class="prices_number">20 €</span>
+                                <small class="prices__advice">monthly</small>
+                            </div>
+
+                            <div class="prices__buy">
+                                <a href="#" class="prices__btn">Free Trial</a>
+                            </div>
+                            <!--PRICES REWARD-->
+                            <div class="prices__reward">
+                                Web development course
+                            </div>
+
+                            <div class="prices__reward">
+                                Technical support
+                            </div>
+
+                            <div class="prices__reward">
+                                Completion Certification
+                            </div>
+                        </article>
+
+                        <!--CONTAINER # 2-->
+                        <article class="prices__box">
+                            <div class="prices__subtitle">
+                                <span class="prices__text">Premium</span>
+                            </div>
+
+                            <div class="prices__price">
+                                <span class="prices_number">50 €</span>
+                                <small class="prices__advice">monthly</small>
+                            </div>
+
+                            <div class="prices__buy">
+                                <a href="#" class="prices__btn">Free Trial</a>
+                            </div>
+                            <!--PRICES REWARD-->
+                            <div class="prices__reward">
+                                5 Web development course
+                            </div>
+
+                            <div class="prices__reward">
+                                Technical support
+                            </div>
+
+                            <div class="prices__reward">
+                                Completion Certification
+                            </div>
+                        </article>
+
+                    </div>
+                </section>
+
+                <!--ABOUT EXTRA-->
+                <section class="about__extras">
+                    <header class="extra__header">
+                        <h2 class="extra__title">Information <span class="title__color">Extra</span></h2>
+                    </header>
+
+                    <!--EXTRA CONTAINER-->
+                    <div class="extra__container">
+
+                        <article class="extra__info">
+                            <i class="extra__icon fa-solid fa-heart"></i>
+                            <h4 class="extra__subtitle">Happy students</h4>
+                            <span class="extra__quantity">3.600</span>
+                        </article>
+
+                        <article class="extra__info">
+                            <i class="extra__icon fa-solid fa-clock"></i>
+                            <h4 class="extra__subtitle">Hours of content</h4>
+                            <span class="extra__quantity">300</span>
+                        </article>
+
+                        <article class="extra__info">
+                            <i class="extra__icon fa-solid fa-star"></i>
+                            <h4 class="extra__subtitle">Appreciation</h4>
+                            <span class="extra__quantity">10</span>
+                        </article>
+
+                    </div>
+
+                </section>
+
+            </section>
+
+        </main>
+    </div>
+    
+</body>
+
+</html>

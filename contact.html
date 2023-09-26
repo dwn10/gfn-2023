@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <!--Call script-->
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/menu.js" defer></script>
+    <!--Copyright, Publisher, Autor-->
+    <meta name="authors" content="Darwin Paz & Matthias Majowski">
+    <meta name="publisher" content="Darwin Paz & Matthias Majowski">
+    <meta name="copyright" content="© D.Paz & M.Majowski">
+    <!--Beschreibung der Seite-->
+    <meta name="description" content="Seitenbeschreibung.">
+    <!--Marketing Keywords-->
+    <meta name="keywords" content="keywords">
+
+    <!--Google-Robots zur Indexierung-->
+    <meta name="robots" content="index, follow">
+    <!--Google darf die Seite nich indexieren-->
+    <meta name="robots" content="noindex, nofollow">
+    <!--Favicon-->
+    <link rel="icon" type="favicon" href="assets/img/favicon-2.png" />
+    <!--Styles-->
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/scroll.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/loader.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <!--Title-->
+    <title>CV - LF10aV2</title>
+</head>
+
+<body>
+    
+    <!--LAYOUT-->
+    <div class="layout">
+
+        <!--side container (info user)-->
+        <aside class="layout__aside">
+        
+            <section class="aside__user-info">
+
+                <!--information user-->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <!--User image-->
+                        <img src="assets/img/default-user.jpg" class="user-info__image" alt="Image user">
+                    </div>
+                    <!--Name + job-->
+                    <h2 class="user-info__name">Alexio Mustermann</h2>
+                    <h4 class="user-info__job">DEV</h4>
+                </div>
+
+                <!--MENU NAV-->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+                    
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="about-me.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">About me</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="curriculum.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Curriculum Vitae</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="portfolio.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Portfolio</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="blog.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-book"></i>
+                                <span class="menu__overlay">Blog</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="contact.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contact</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="impressum.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-scale-unbalanced"></i>
+                                <span class="menu__overlay">Impressum</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="datenschutz.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-shield-halved"></i>
+                                <span class="menu__overlay">Datenschutz</span>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+
+                <!--SOCIALS-->
+                <div class="user-info__user-links">
+
+                    <ul class="links__social">
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--BTN DOWNLOAD CV-->
+                <div class="user-info__buttons">
+                    <a download="download" href="assets/pdf/ec-it-book.pdf" class="user-info__btn">Download CV</a>
+                </div>
+
+            <!--FOOTER-->
+            <footer class="user-info__footer">
+                &copy; 2023 D.Paz & M.Majowski | All rights reserved <Br/>Design by LF10aV2
+            </footer>
+            </section>
+        </aside>
+
+        <!--MENU NAV RESPONSIVE-->
+        <div class="layout__menu-toggle">
+            <i class="menu-toggle__icon fa-solid fa-bars"></i>
+            <i class="menu-toggle__icon fa-solid fa-xmark"></i>
+        </div>
+
+        <!--MAIN CONTENT-->
+        <main class="layout__content">
+            
+            <!--THIS CONTENT CHANGES ON EACH PAGE OF THE WEBSITE-->
+            <section class="content__page content__contact">
+                <header class="contact__header">
+                    <h1 class="contact__title">Contact</h1>
+                </header>
+                <!--CONTAINER-->
+                <div class="contact__container">
+                    <section class="contact__info">
+                        <!--item # 1-->
+                        <div class="contact__data">
+                            <i class="contact__icon fa-solid fa-location-dot"></i>
+                            <h2 class="contact__subtitle">Darmstadt</h2>
+                        </div>
+
+                        <!--item # 2-->
+                        <div class="contact__data">
+                            <i class="contact__icon fa-solid fa-phone"></i>
+                            <h2 class="contact__subtitle">666 777 888</h2>
+                        </div>
+
+                        <!--item # 3-->
+                        <div class="contact__data">
+                            <i class="contact__icon fa-solid fa-envelope"></i>
+                            <h2 class="contact__subtitle">alexio@mustermann.com</h2>
+                        </div>
+
+                        <!--item # 4-->
+                        <div class="contact__data">
+                            <i class="contact__icon fa-solid fa-circle-check"></i>
+                            <h2 class="contact__subtitle">Dev freelance</h2>
+                        </div>
+
+                    </section>
+
+                    <!--INFO-->
+                    <section class="contact__form-box">
+                        <!--map-->
+                        <div class="contact__map" id="load-iframe-map">
+                            <!--<iframe class="contact__iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d374.8027100445434!2d8.630962223213627!3d49.87416942915357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd7082280c43c9%3A0x57f87ba933adbb81!2sGFN%20GmbH!5e1!3m2!1ses-419!2sde!4v1695273996555!5m2!1ses-419!2sde"></iframe>-->
+                            <span class="loader"></span>
+                        </div>
+
+                        <header class="contact__form-header">
+                            <h3 class="form-header__title">how can I <span class="title__color">help you?</span></h3>
+                        </header>
+                        <!--CONTACT FORM-->
+                        <form action="https://formsubmit.co/Darwin.Paz@gfn.education" method="POST" class="contact__form">
+                            <div class="form__container">
+                                    <!--left form-->
+                                <section class="form__left">
+
+                                    <!--name-->
+                                    <div class="form__group">
+                                        <input type="text" class="form__input" name="name" required placeholder="Name"/>
+                                        <label for="name" class="form__label">Name</label>
+                                    </div>
+
+                                    <!--email-->
+                                    <div class="form__group">
+                                        <input type="email" class="form__input" name="email" required placeholder="E-mail"/>
+                                        <label for="email" class="form__label">E-mail</label>
+                                    </div>
+
+                                    <!--subject-->
+                                    <div class="form__group">
+                                        <input type="text" class="form__input" name="subject" required placeholder="Subject"/>
+                                        <label for="subject" class="form__label">Subject</label>
+                                    </div>
+                                    
+                                </section>
+
+                                <!--right form-->
+                                <section class="form__right">
+
+                                <!--message-->
+                                <div class="form__group form__group--textarea">
+                                    <textarea class="form__input form__input--textarea" name="message" required placeholder="Message"></textarea>
+                                    <label for="message" class="form__label">Message</label>
+                                </div>
+                                </section>
+                            </div>
+
+                            <input type="submit" class="form__button" value="send message" onclick="return confirmation()">
+
+                            <!--Checkbox - Terms and Conditions-->
+                            <input type="checkbox" class="form__checkbox">
+                            <label for="termsandConditions" class="form-termsandConditions">I have read and accept the
+                            <a href="terms.html">Terms and Conditions</a></label>
+                            
+                            <!--captcha / local host-->
+                            <input type="hidden" name="_next" id="https://darwinpaz.luebco-server.de">
+                            <input type="hidden" name="_captcha" value="false">
+
+                            <!--message confirmation-->
+                            <script>
+                                function confirmation(){
+                                    var answer=confirm("Do you want to send this message?");
+                                    if(answer==true){
+                                        return true;
+                                    }else{
+                                        return false;
+                                    }
+                                }
+
+                            
+                            </script>
+
+
+                        </form>
+
+                    </section>
+                </div>
+
+            </section>
+
+        </main>
+    </div>
+    
+</body>
+</html>

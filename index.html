@@ -1,0 +1,185 @@
+<!--Infos HTML Standard-->
+<!DOCTYPE html>
+<!--Open HTML Document-->
+<html lang="de">
+
+<!--Beginning of header-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <meta http-equiv="cache-control" content="cache">
+    <!--Call script-->
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/menu.js" defer></script>
+    <!--Copyright, Publisher, Autor-->
+    <meta name="authors" content="Darwin Paz & Matthias Majowski">
+    <meta name="publisher" content="Darwin Paz & Matthias Majowski">
+    <meta name="copyright" content="© D.Paz & M.Majowski">
+    <!--Page description-->
+    <meta name="description" content="Seitenbeschreibung.">
+    <!--Marketing Keywords-->
+    <meta name="keywords" content="keywords">
+
+    <!--Google robots for indexing-->
+    <!--<meta name="robots" content="index, follow">-->
+    
+    <!--Google is not allowed to index the page-->
+    <meta name="robots" content="noindex, nofollow">
+
+    <!--Favicon-->
+    <link rel="icon" type="favicon" href="assets/img/favicon-2.png" />
+    <!--Styles-->
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/scroll.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <!--Title-->
+    <title>CV - LF10aV2</title>
+</head>
+
+<body>
+    
+    <!--BEGINNING OF BODY - LAYOUT-->
+    <div class="layout">
+
+        <!--side container (info user)-->
+        <aside class="layout__aside">
+        
+            <section class="aside__user-info">
+
+                <!--information user-->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <!--User image-->
+                        <img src="assets/img/default-user.jpg" class="user-info__image" alt="Image user">
+                    </div>
+                    <!--Name + job-->
+                    <h2 class="user-info__name">Alexio Mustermann</h2>
+                    <h4 class="user-info__job">DEV</h4>
+                </div>
+
+                <!--MENU NAV-->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+                    
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="about-me.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">About me</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="curriculum.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Curriculum</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="portfolio.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Portfolio</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="blog.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-book"></i>
+                                <span class="menu__overlay">Blog</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="contact.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contact</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="impressum.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-scale-unbalanced"></i>
+                                <span class="menu__overlay">Impressum</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="datenschutz.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-shield-halved"></i>
+                                <span class="menu__overlay">Datenschutz</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <!--SOCIALS-->
+                <div class="user-info__user-links">
+
+                    <ul class="links__social">
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--BTN DOWNLOAD CV-->
+                <div class="user-info__buttons">
+                    <a download="download" href="assets/pdf/ec-it-book.pdf" class="user-info__btn">Download CV</a>
+                </div>
+
+            <!--FOOTER-->
+            <footer class="user-info__footer">
+                &copy; 2023 D.Paz & M.Majowski | All rights reserved <Br/>Design by LF10aV2
+            </footer>
+            </section>
+        </aside>
+
+        <!--MENU NAV RESPONSIVE-->
+        <div class="layout__menu-toggle">
+            <i class="menu-toggle__icon fa-solid fa-bars"></i>
+            <i class="menu-toggle__icon fa-solid fa-xmark"></i>
+        </div>
+
+        <!--MAIN CONTENT-->
+        <main class="layout__content">
+            
+            <section class="content__page">
+                <h1 class="page__name">Alexio Mustermann</h1>
+                <h2 class="page__job">Web Dev</h2>
+            </section>
+
+        </main>
+    </div>
+
+</body>
+<!--END OF BODY-->
+</html>
