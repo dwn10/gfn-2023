@@ -4,7 +4,7 @@
 #### A little more about me
 ```javascript
 const LF10aV2 Project = {
-  	code: ["Python", "HTML", "CSS", "SQL", "Javascript"],
+  	code: ["HTML", "CSS", "Javascript"],
 	technologies: {
 	dev: ["Visual Studio code"]
 	}
@@ -24,15 +24,16 @@ Web-Portfolio erstellt mit HTML, CSS und ein paar Zeilen Javascript.
 </ul>
 
 <div>
-        <h2>Web Entwicklung</h2>
-        <p>Diese Sprachen sind vielseitig und ermöglichen Ihnen die Erstellung attraktiver und funktionaler Webdesigns.
-
+## Web Entwicklung
+- Diese Sprachen sind vielseitig und ermöglichen Ihnen die Erstellung attraktiver und funktionaler Webdesigns.
 In diesem Webportfolio wurde der Code unter Verwendung der neuesten Webentwicklungstechniken und -standards geschrieben.
+Die Website ist vollständig responsiv, d. h. sie passt sich an jedes Gerät an, sei es ein Desktop, ein Tablet oder ein Smartphone.
 
-Die Website ist vollständig responsiv, d. h. sie passt sich an jedes Gerät an, sei es ein Desktop, ein Tablet oder ein Smartphone.</p>
-</div>
+## Watch the full series!
 
-
+<a href="https://www.youtube.com/playlist?list=PLSvCAHoiHC_rqKbcu1ummWVpLTDBNZHH7" target="_blank">
+<img src="http://img.youtube.com/vi/SiGxu2N9ndU/mqdefault.jpg" alt="Watch the series" width="240" height="180" border="10" />
+</a>
 
 Das Webportfolio besteht aus folgenden Abschnitten:
 
