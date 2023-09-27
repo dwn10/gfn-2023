@@ -1,5 +1,3 @@
-
-***
 <h2 align="left">
 <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"> gfn-2023</h2>
 	
@@ -21,17 +19,12 @@ Web-Portfolio erstellt mit HTML, CSS und ein paar Zeilen Javascript.
 
 ## Quellen für dieses Projekt
 <ul>
-	<li>Form Submit:</li>
+	<li><a href="https://fontawesome.com/">Fontawesome</a></li>
+	<li><a href="https://cssloaders.github.io/">Loaders</a></li>
+	<li><a href="https://formsubmit.co/">Form Submit</a></li>
+	<li><a href="https://www.impressum-generator.de/">Impressum-generator</a></li>
+	<li><a href=" https://www.mein-datenschutzbeauftragter.de/datenschutzerklaerung-konfigurator">Datenschutzerklärung Muster</a></li>
 </ul>
-<a href="https://fontawesome.com/">Fontawesome</a>
-<a href="https://cssloaders.github.io/">Loaders</a>
-
- https://cssloaders.github.io/
-
-Form Submit: https://formsubmit.co/
-
-Impressum-generator: https://www.impressum-generator.de/
-Datenschutzerklärung Muster: https://www.mein-datenschutzbeauftragter.de/datenschutzerklaerung-konfigurator
 
 Diese Sprachen sind vielseitig und ermöglichen Ihnen die Erstellung attraktiver und funktionaler Webdesigns.
 
