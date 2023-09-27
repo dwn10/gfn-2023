@@ -20,6 +20,16 @@ const darwin = {
 
 Web-Portfolio erstellt mit HTML, CSS und ein paar Zeilen Javascript.
 
+## Quellen für dieses Projekt:
+
+Fontawesome: https://fontawesome.com/ 
+Loaders: https://cssloaders.github.io/
+
+Form Submit: https://formsubmit.co/
+
+Impressum-generator: https://www.impressum-generator.de/
+Datenschutzerklärung Muster: https://www.mein-datenschutzbeauftragter.de/datenschutzerklaerung-konfigurator
+
 Diese Sprachen sind vielseitig und ermöglichen Ihnen die Erstellung attraktiver und funktionaler Webdesigns.
 
 In diesem Webportfolio wurde der Code unter Verwendung der neuesten Webentwicklungstechniken und -standards geschrieben.
