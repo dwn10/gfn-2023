@@ -20,7 +20,13 @@ document.addEventListener("DOMContentLoaded",(event) =>{
     }, 3000);
 });
 
-// QR Code generator
-const containerQR = document.getElementById('containerQR');
+//Contact form return clean
+function validar(){
+    console.log('E-mail sent');
+    return false;
+}
 
-new QRCode(containerQR,'https://www.ecuador-it.com');
+// QR Code generator
+//const containerQR = document.getElementById('containerQR');
+
+//new QRCode(containerQR,'https://www.ecuador-it.com');

@@ -213,7 +213,8 @@
                             <h3 class="form-header__title">how can I <span class="title__color">help you?</span></h3>
                         </header>
                         <!--CONTACT FORM-->
-                        <form action="https://formsubmit.co/Darwin.Paz@gfn.education" method="POST" class="contact__form">
+                        <form action="https://formsubmit.co/bc32de991ccb53e015d3b2dc64713437" method="POST" class="contact__form">
+                            
                             <div class="form__container">
                                     <!--left form-->
                                 <section class="form__left">
@@ -249,16 +250,35 @@
                                 </section>
                             </div>
 
+                            <!--btn send-->
                             <input type="submit" class="form__button" value="send message" onclick="return confirmation()">
 
+                            <!--btn reset-->
+                            <button type="reset" class="form__button-reset">reset</button>
+
                             <!--Checkbox - Terms and Conditions-->
-                            <input type="checkbox" class="form__checkbox">
-                            <label for="termsandConditions" class="form-termsandConditions">I have read and accept the
+                            <input type="checkbox" class="form__checkbox" id="miCheckbox" name="miCheckbox" required>
+
+                            <!--Checkbox validation / script -->
+                            <script>
+                                function validarCheckbox() {
+                                var checkbox = document.getElementById("miCheckbox");
+                                if (checkbox.checked == false) {
+                                    alert("You must select the checkbox...");
+                                    return false;
+                                }
+                                }
+                                </script>
+
+
+                            <label for="termsandConditions" class="form-termsandConditions" name="subject" required placeholder="Subject">I have read and accept the
                             <a href="terms.html">Terms and Conditions</a></label>
+
                             
-                            <!--captcha / local host-->
+                            <!--captcha / local host / hidden web formsubmit.co-->
                             <input type="hidden" name="_next" id="https://darwinpaz.luebco-server.de">
                             <input type="hidden" name="_captcha" value="false">
+
 
                             <!--message confirmation-->
                             <script>

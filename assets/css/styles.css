@@ -1233,7 +1233,7 @@ color: var(--color-principal);
 /*--send button--*/
 .form__button{
     margin-bottom: 1rem;
-    padding: 1rem 3rem;
+    padding: 0.5rem 0.8rem;
     font-size: 1.5rem;
     border: 0.2rem solid var(--color-secondary);
     color: var(--color-title);
@@ -1248,11 +1248,60 @@ color: var(--color-principal);
     background-color: var(--color-secondary);
     color: var(--color-principal);
 }
-/*checkbox*/
+
+/*--send reset--*/
+.form__button-reset{
+    margin-bottom: 1rem;
+    padding: 0.2rem 0.4rem;
+    font-size: 1.2rem;
+    border: 0.2rem solid var(--color-secondary);
+    color: var(--color-title);
+    background-color: var(--color-principal);
+    border-radius: 3rem;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+/*send button hover*/
+.form__button-reset:hover{
+    background-color: var(--color-secondary);
+    color: var(--color-principal);
+}
+
+/*--checkbox--*/
 .form__checkbox{
     margin-left: -0.5rem;
-    margin-top: 2rem;
+    margin-top: 0.2rem;
 }
+
+/*checkbox animation*/
+@keyframes form__checkbox {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+[type="checkbox"] {
+    cursor: pointer;
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 1.5px solid var(--color-subtitle);
+    appearance: none;
+    background-color: #ddd9d9;
+    transition: 0.5s;
+    animation: form__checkbox 5000ms infinite linear;
+    -webkit-animation: form__checkbox 5000ms infinite linear;
+}
+
+[type="checkbox"]:checked {
+    background-color: #433F3E;
+}
+
+
 /*termsandConditions*/
 .form-termsandConditions{
     margin-left: 2rem;
