@@ -23,7 +23,7 @@ Web-Portfolio erstellt mit HTML, CSS und ein paar Zeilen Javascript.
 	<li><a href="https://cssloaders.github.io/">Loaders</a></li>
 	<li><a href="https://formsubmit.co/">Form Submit</a></li>
 	<li><a href="https://www.impressum-generator.de/">Impressum-generator</a></li>
-	<li><a href=" https://www.mein-datenschutzbeauftragter.de/datenschutzerklaerung-konfigurator">Datenschutzerklärung Muster</a></li>
+	<li><a href="https://www.mein-datenschutzbeauftragter.de/datenschutzerklaerung-konfigurator">Datenschutzerklärung Muster</a></li>
 </ul>
 
 Diese Sprachen sind vielseitig und ermöglichen Ihnen die Erstellung attraktiver und funktionaler Webdesigns.
