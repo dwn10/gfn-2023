@@ -1,3 +1,21 @@
+ ```
+***
+<h2 align="left">
+<img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"> gfn-2023</h2>
+	
+#### A little more about me
+```javascript
+const darwin = {
+  pronouns: "He" | "Him",
+  code: ["Python", "HTML", "CSS", "SQL", "Javascript"],
+  askMeAbout: ["web dev", "tech", "app dev", "graphic design"],
+  technologies: {
+	frontend: ["HTML", "CSS", "JS"],
+	low code: ["App Sheet"],
+  }
+}
+```
+
 # gfn-2023
 
 Web-Portfolio erstellt mit HTML, CSS und ein paar Zeilen Javascript.
