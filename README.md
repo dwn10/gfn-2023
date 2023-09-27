@@ -3,14 +3,11 @@
 	
 #### A little more about me
 ```javascript
-const darwin = {
-  pronouns: "He" | "Him",
-  code: ["Python", "HTML", "CSS", "SQL", "Javascript"],
-  askMeAbout: ["web dev", "tech", "app dev", "graphic design"],
-  technologies: {
-	frontend: ["HTML", "CSS", "JS"],
-	low code: ["App Sheet"],
-  }
+const LF10aV2 Project = {
+  	code: ["Python", "HTML", "CSS", "SQL", "Javascript"],
+	technologies: {
+	dev: ["Visual Studio code"]
+	}
 }
 ```
 
