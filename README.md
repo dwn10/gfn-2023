@@ -26,11 +26,15 @@ Web-Portfolio erstellt mit HTML, CSS und ein paar Zeilen Javascript.
 	<li><a href="https://www.mein-datenschutzbeauftragter.de/datenschutzerklaerung-konfigurator">Datenschutzerklärung Muster</a></li>
 </ul>
 
-Diese Sprachen sind vielseitig und ermöglichen Ihnen die Erstellung attraktiver und funktionaler Webdesigns.
+<div>
+        <h2>Web Entwicklung</h2>
+        <p>Diese Sprachen sind vielseitig und ermöglichen Ihnen die Erstellung attraktiver und funktionaler Webdesigns.
 
 In diesem Webportfolio wurde der Code unter Verwendung der neuesten Webentwicklungstechniken und -standards geschrieben.
 
-Die Website ist vollständig responsiv, d. h. sie passt sich an jedes Gerät an, sei es ein Desktop, ein Tablet oder ein Smartphone.
+Die Website ist vollständig responsiv, d. h. sie passt sich an jedes Gerät an, sei es ein Desktop, ein Tablet oder ein Smartphone.</p>
+</div>
+
 
 
 Das Webportfolio besteht aus folgenden Abschnitten:
