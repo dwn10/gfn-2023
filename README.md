@@ -16,14 +16,17 @@ const darwin = {
 }
 ```
 
-# gfn-2023
-
+<title>gfn-2023</title> 
 Web-Portfolio erstellt mit HTML, CSS und ein paar Zeilen Javascript.
 
-## Quellen für dieses Projekt:
+## Quellen für dieses Projekt
+<ul>
+	<li>Form Submit:</li>
+</ul>
+<a href="https://fontawesome.com/">Fontawesome</a>
+<a href="https://cssloaders.github.io/">Loaders</a>
 
-Fontawesome: https://fontawesome.com/ 
-Loaders: https://cssloaders.github.io/
+ https://cssloaders.github.io/
 
 Form Submit: https://formsubmit.co/
 
