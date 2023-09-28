@@ -77,3 +77,11 @@ Darüber hinaus ist die Website einfach zu navigieren, sodass Besucher schnell d
 Dabei handelt es sich um ein `Open-Source-Projekt`, das nur für private Zwecke heruntergeladen, geklont und verändert werden darf. 
 Das bedeutet, dass jeder den Web-Portfolio-Code herunterladen und für seine eigenen Projekte verwenden kann, 
 er jedoch nicht für kommerzielle oder gewinnbringende Zwecke verwendet werden kann.
+
+```http
+  Abgabetermin:
+```
+
+| Stadt: | Datum:     | Bis:                       |
+| :-------- | :------- | :-------------------------------- |
+| `Darmstadt`      | `Do - 28.09.2023` | **16:30 Uhr**  |
