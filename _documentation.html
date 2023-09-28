@@ -1,0 +1,1408 @@
+// Relevante Elemente des Projekts:
+
+---------------------------------------------------------------------------------------------------
+//script for map//
+---------------------------------------------------------------------------------------------------
+document.addEventListener("DOMContentLoaded",(event) =>{
+    setTimeout(() => {
+    document.querySelector("#load-iframe-map").innerHTML = `
+        <iframe class="contact__iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d374.8027100445434!2d8.630962223213627!3d49.87416942915357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd7082280c43c9%3A0x57f87ba933adbb81!2sGFN%20GmbH!5e1!3m2!1ses-419!2sde!4v1695273996555!5m2!1ses-419!2sde"></iframe>`;
+    }, 3000);
+});
+
+Dieser Code ist ein Ereignis-Listener, der darauf wartet, dass der DOM-Inhalt geladen wird, 
+bevor er den Code innerhalb der Rückruffunktion ausführt. Sobald der DOM-Inhalt geladen wurde, 
+wird ein Timeout von 3000 Millisekunden (3 Sekunden) eingestellt, bevor der Code innerhalb der 
+setTimeout-Funktion ausgeführt wird.
+ 
+Innerhalb der Funktion setTimeout wird mithilfe von document.querySelector("#load-iframe-map") 
+ein Element mit der ID „load-iframe-map“ ausgewählt. Anschließend legen Sie das innerHTML 
+dieses Elements so fest, dass es ein Iframe-Element enthält.
+ 
+Das iframe-Element wird zum Einbetten einer Google Maps-Karte verwendet. 
+Es verfügt über mehrere Attribute wie Klasse, Frameborder, Scrolling, Marginheight, 
+Marginwidth, Loading, Referrerpolicy und Src. Das src-Attribut enthält die URL der Google Maps-Einbettung, 
+die einen bestimmten Ort auf der Karte anzeigt.
+ 
+Kurz gesagt, dieser Code wartet auf das Laden des DOM-Inhalts und fügt nach 3 Sekunden dynamisch ein 
+Iframe-Element mit einer Google Maps-Einbettung in das angegebene Element auf der Seite ein.
+
+
+---------------------------------------------------------------------------------------------------
+//portfolio.html / gallery//
+---------------------------------------------------------------------------------------------------
+ <!--GALLERY-->
+                <section class="portfolio__gallery">
+
+                    <!--gallery description # 1-->
+                    <figure class="gallery__item">
+                        <div class="gallery__container-image">
+                            <a href="#" class="gallery__link">
+                                <img src="assets/img/galeria-1.jpg" class="gallery__image"/>
+                            </a>
+                        </div>
+                        <figcaption class="gallery__title">Video production</figcaption>
+                        <i class="gallery__icon fa-solid fa-video-camera"></i>
+                        <span class="gallery__category">Videos</span>
+                    </figure>
+					
+Der oben gezeigte Code ist ein HTML-Code-Abschnitt, der eine Galerie darstellt. Hier ist eine Erklärung des Codes:
+
+-  `<!--GALLERY-->` : Dies ist ein Kommentar, der den Beginn des Galerie-Abschnitts markiert.
+
+-  `<section class="portfolio__gallery">` : Dies ist ein HTML-Element  `<section>` , das der Galerie einen spezifischen Klassenname  
+`portfolio__gallery`  zuweist. Dieser Klassenname kann für das Styling oder die Manipulation des Abschnitts verwendet werden.
+
+-  `<figure class="gallery__item">` : Dies ist ein HTML-Element  `<figure>` , das ein einzelnes Element in der Galerie darstellt. 
+Es hat den Klassenname  `gallery__item` .
+
+-  `<div class="gallery__container-image">` : Dies ist ein HTML-Element  `<div>` 
+, das den Container für das Bild in der Galerie darstellt. Es hat den Klassenname  `gallery__container-image` .
+
+-  `<a href="#" class="gallery__link">` : Dies ist ein HTML-Element  `<a>` 
+, das den Link um das Bild herum darstellt. Es hat den Klassenname  `gallery__link` .
+
+-  `<img src="assets/img/galeria-1.jpg" class="gallery__image"/>` : Dies ist ein HTML-Element  `<img>` 
+, das das Bild in der Galerie darstellt. Es hat den Quellpfad  `assets/img/galeria-1.jpg`  und den Klassenname  `gallery__image` .
+
+-  `<figcaption class="gallery__title">Video production</figcaption>` : Dies ist ein HTML-Element  `<figcaption>` 
+, das den Titel oder die Beschreibung des Elements in der Galerie darstellt. Es hat den Klassenname  
+`gallery__title`  und den Text "Video production".
+
+-  `<i class="gallery__icon fa-solid fa-video-camera"></i>` : Dies ist ein HTML-Element  `<i>` 
+, das ein Symbol oder eine Ikone darstellt. Es hat den Klassenname  
+`gallery__icon`  und verwendet die Font Awesome-Klasse  `fa-solid fa-video-camera` 
+, um das Symbol einer Videokamera anzuzeigen.
+
+-  `<span class="gallery__category">Videos</span>` : Dies ist ein HTML-Element  `<span>` 
+, das die Kategorie des Elements in der Galerie darstellt. Es hat den Klassenname  
+`gallery__category`  und den Text "Videos".
+
+Dieser Code stellt also ein einzelnes Element in einer Galerie dar, das ein Bild, 
+einen Titel, ein Symbol und eine Kategorie enthält. Die Klassen in den Elementen können verwendet werden, 
+um das Styling oder das Verhalten der Galerie mit CSS oder JavaScript anzupassen.
+
+---------------------------------------------------------------------------------------------------
+//about-me.html / reviews //
+---------------------------------------------------------------------------------------------------
+<!--REVIEWS CONTAINER-->
+                    <div class="reviews__container">
+                        <article class="reviews__review">
+
+                            <!--REVIEWS IMG # 1-->
+                            <div class="review__img-container">
+                                <img src="assets/img/testimonio1.png" class="review__image" alt="client-1">
+                            </div>
+                            <!--REVIEWS DESCRIPTION-->
+                        <div class="review__description">
+                            <p class="review__text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                        <!--REVIEWS AUTHOR-->
+                        <div class="review__author">
+                            <h4 class="review__name">Anna Mustermann</h4>
+                            <h5 class="review__company">Developers S.A</h5>
+                        </div>
+                        <!--REVIEWS AUTHOR ICON-->
+                        <div class="review__author-icon">
+                            <i class="review__icon fa-solid fa-quote-right"></i>
+                        </div>
+                        </article>
+						
+Der bereitgestellte Code repräsentiert einen Abschnitt zur Anzeige von Bewertungen. 
+
+-  `<!--REVIEWS CONTAINER-->` : Dies ist ein HTML-Kommentar, der den Beginn des Bewertungscontainer-Abschnitts markiert.
+
+-  `<div class="reviews__container">` : Dies ist ein HTML-Element  `<div>` , das als Container für die Bewertungen dient. 
+Es hat den Klassennamen  `reviews__container` .
+
+-  `<article class="reviews__review">` : Dies ist ein HTML-Element  `<article>` , das eine einzelne Bewertung repräsentiert. 
+Es hat den Klassennamen  `reviews__review` .
+
+-  `<div class="review__img-container">` : Dies ist ein HTML-Element  `<div>` , das das Bild, das mit der Bewertung verknüpft ist, 
+enthält. Es hat den Klassennamen  `review__img-container` .
+
+-  `<img src="assets/img/testimonio1.png" class="review__image" alt="client-1">` : Dies ist ein HTML-Element  `<img>` , das das Bewertungsbild anzeigt.
+ Es hat den Quellpfad  `assets/img/testimonio1.png` , den Klassennamen  `review__image`  und den alternativen Text "client-1".
+ 
+-  `<div class="review__description">` : Dies ist ein HTML-Element  `<div>` , das die Beschreibung oder den Text der Bewertung enthält. 
+Es hat den Klassennamen  `review__description` .
+
+-  `<p class="review__text">` : Dies ist ein HTML-Element  `<p>` , das den Bewertungstext darstellt. Es hat den Klassennamen  
+`review__text` .
+
+-  `Lorem ipsum dolor sit, amet consectetur adipisicing elit.` : Dies ist ein Platzhaltertext, der häufig in Design und Entwicklung verwendet wird.
+
+-  `<div class="review__author">` : Dies ist ein HTML-Element  `<div>` , das den Namen und das Unternehmen des Autors enthält. 
+Es hat den Klassennamen  `review__author` .
+
+-  `<h4 class="review__name">Anna Mustermann</h4>` : Dies ist ein HTML-Element  `<h4>` , das den Namen des Autors anzeigt. 
+Es hat den Klassennamen  `review__name`  und den Text "Anna Mustermann".
+
+-  `<h5 class="review__company">Developers S.A</h5>` : Dies ist ein HTML-Element  `<h5>` , das das Unternehmen des Autors anzeigt. 
+Es hat den Klassennamen  `review__company`  und den Text "Developers S.A".
+
+-  `<div class="review__author-icon">` : Dies ist ein HTML-Element  `<div>` , das ein Symbol enthält, das mit dem Autor verbunden ist. 
+Es hat den Klassennamen  `review__author-icon` .
+
+-  `<i class="review__icon fa-solid fa-quote-right"></i>` : Dies ist ein HTML-Element  `<i>` 
+, das ein Symbol repräsentiert, speziell ein rechtes Anführungszeichen. Es hat den Klassennamen  
+`review__icon`  und verwendet die Font Awesome-Klasse  `fa-solid fa-quote-right` , um das Symbol anzuzeigen.
+
+Dieser Code repräsentiert eine einzelne Bewertung innerhalb eines Containers. 
+Die Klassennamen können für das Styling oder die Manipulation der Elemente mit CSS oder JavaScript verwendet werden.
+
+---------------------------------------------------------------------------------------------------
+//Curriculum Vitae / Timelines//
+---------------------------------------------------------------------------------------------------
+<!--CONTAINER-->
+                <div class="resume__container">
+                    <!--Box left-->
+                    <section class="resume__left">
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Education</h2>
+                        </header>
+                        <!--Timelines-->
+                        <div class="resume__timelines">
+
+                            <!--Education # 1-->
+                            <article class="timelines__timeline">
+                                <!--Year-->
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2010</h4>
+                                    <!--Institute-->
+                                    <span class="timeline__company">Universidad de Madrid</span>
+                                </header>
+
+                                <!--Divider-->
+                                <div class="timeline__divider"></div>
+
+                                <!--Description-->
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Developer</h3>
+                                    <!--Text-->
+                                    <p class="timeline__text">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+										At aperiam asperiores accusamus tempora perspiciatis voluptate quod sapiente dolore odit iure.
+                                    </p>
+                                </div>
+                            </article>
+
+Der bereitgestellte Code repräsentiert einen Abschnitt für den Lebenslauf in HTML. 
+
+-  `<!--CONTAINER-->` : Dies ist ein HTML-Kommentar, der den Beginn des Container-Abschnitts markiert.
+
+-  `<div class="resume__container">` : Dies ist ein HTML-Element  `<div>` , das als Container für den Lebenslauf dient. 
+Es hat den Klassennamen  `resume__container` .
+
+-  `<section class="resume__left">` : Dies ist ein HTML-Element  `<section>` , das den linken Teil des Lebenslaufs darstellt. 
+Es hat den Klassennamen  `resume__left` .
+
+-  `<header class="resume__subheader">` : Dies ist ein HTML-Element  `<header>` , das den Untertitel für den Lebenslauf darstellt. 
+Es hat den Klassennamen  `resume__subheader` .
+
+-  `<h2 class="resume__subtitle">Education</h2>` : Dies ist ein HTML-Element  `<h2>` , das den Untertitel "Education" für den Lebenslauf darstellt. 
+Es hat den Klassennamen  `resume__subtitle` .
+
+-  `<div class="resume__timelines">` : Dies ist ein HTML-Element  `<div>` , das die Zeitleisten für den Lebenslauf enthält. 
+Es hat den Klassennamen  `resume__timelines` .
+
+-  `<article class="timelines__timeline">` : Dies ist ein HTML-Element  `<article>` , das eine einzelne Zeitleiste im Lebenslauf darstellt. 
+Es hat den Klassennamen  `timelines__timeline` .
+
+-  `<header class="timeline__header">` : Dies ist ein HTML-Element  `<header>` , das den Kopfteil der Zeitleiste darstellt. 
+Es hat den Klassennamen  `timeline__header` .
+
+-  `<h4 class="timeline__year">2010</h4>` : Dies ist ein HTML-Element  `<h4>` , das das Jahr der Ausbildung in der Zeitleiste darstellt. 
+Es hat den Klassennamen  `timeline__year`  und den Text "2010".
+
+-  `<span class="timeline__company">Universidad de Madrid</span>` : Dies ist ein HTML-Element  `<span>` , 
+das den Namen der Bildungseinrichtung in der Zeitleiste darstellt. Es hat den Klassennamen  `timeline__company`  
+und den Text "Universidad de Madrid".
+
+-  `<div class="timeline__divider"></div>` : Dies ist ein HTML-Element  `<div>` , das einen Trennstrich in der Zeitleiste darstellt. 
+Es hat den Klassennamen  `timeline__divider` .
+
+-  `<div class="timeline__description">` : Dies ist ein HTML-Element  `<div>` , das die Beschreibung oder den Text der Zeitleiste enthält. 
+Es hat den Klassennamen  `timeline__description` .
+
+-  `<h3 class="timeline__title">Developer</h3>` : Dies ist ein HTML-Element  `<h3>` , das den Titel für die Beschreibung in der Zeitleiste darstellt. 
+Es hat den Klassennamen  `timeline__title`  und den Text "Developer".
+-  `<p class="timeline__text">` : Dies ist ein HTML-Element  `<p>` , das den Text für die Beschreibung in der Zeitleiste darstellt. 
+
+Es hat den Klassennamen  `timeline__text` .
+-  `Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+
+At aperiam asperiores accusamus tempora perspiciatis voluptate quod sapiente dolore odit iure.
+` : Dies ist ein Platzhaltertext, der häufig in Design und Entwicklung verwendet wird.
+
+Dieser Code stellt also eine Ausbildungserfahrung im Lebenslauf dar, die eine Zeitleiste mit dem Jahr, 
+der Bildungseinrichtung und einer Beschreibung enthält. Die Klassennamen können für das Styling oder 
+die Manipulation der Elemente mit CSS oder JavaScript verwendet werden.
+
+---------------------------------------------------------------------------------------------------
+//Curriculum Vitae / Experiences//
+---------------------------------------------------------------------------------------------------
+<header class="resume__subheader">
+                            <h2 class="resume__subtitle">My <span class="subtitle__color">experience</span></h2>
+                        </header>
+                            <!--Experience # 1-->
+                            <article class="timelines__timeline">
+                                <!--Year-->
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2015 - 2023</h4>
+                                    <!--Institute-->
+                                    <span class="timeline__company">Google</span>
+                                </header>
+
+                                <!--Divider-->
+                                <div class="timeline__divider"></div>
+
+                                <!--Description-->
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Web Developer</h3>
+                                    <!--Text-->
+                                    <p class="timeline__text">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. At aperiam asperiores accusamus tempora perspiciatis voluptate quod sapiente dolore odit iure.
+                                    </p>
+                                </div>
+                            </article>
+							
+Der bereitgestellte Code repräsentiert eine Erfahrung im Lebenslauf in HTML. 
+
+-  `<header class="resume__subheader">` : Dies ist ein HTML-Element  `<header>` , das den Untertitel für den Lebenslauf darstellt. 
+Es hat den Klassennamen  `resume__subheader` .
+
+-  `<h2 class="resume__subtitle">My <span class="subtitle__color">experience</span></h2>` : Dies ist ein HTML-Element  `<h2>` 
+, das den Untertitel "My experience" für den Lebenslauf darstellt. Es hat den Klassennamen  `resume__subtitle` 
+. Der Text "experience" ist in einem  `<span>` -Element mit dem Klassennamen  `subtitle__color`  eingefärbt.
+
+-  `<article class="timelines__timeline">` : Dies ist ein HTML-Element  `<article>` , das eine einzelne Erfahrung im Lebenslauf darstellt. 
+Es hat den Klassennamen  `timelines__timeline` .
+
+-  `<header class="timeline__header">` : Dies ist ein HTML-Element  `<header>` , das den Kopfteil der Erfahrung darstellt. 
+Es hat den Klassennamen  `timeline__header` .
+
+-  `<h4 class="timeline__year">2015 - 2023</h4>` : Dies ist ein HTML-Element  `<h4>` , das die Jahre der Erfahrung in der Zeitleiste darstellt. 
+Es hat den Klassennamen  `timeline__year`  und den Text "2015 - 2023".
+
+-  `<span class="timeline__company">Google</span>` : Dies ist ein HTML-Element  `<span>` , das den Namen des Unternehmens in der Zeitleiste darstellt. 
+Es hat den Klassennamen  `timeline__company`  und den Text "Google".
+
+-  `<div class="timeline__divider"></div>` : Dies ist ein HTML-Element  `<div>` , das einen Trennstrich in der Zeitleiste darstellt. 
+Es hat den Klassennamen  `timeline__divider` .
+
+-  `<div class="timeline__description">` : Dies ist ein HTML-Element  `<div>` , das die Beschreibung oder den Text der Erfahrung enthält. 
+Es hat den Klassennamen  `timeline__description` .
+
+-  `<h3 class="timeline__title">Web Developer</h3>` : Dies ist ein HTML-Element  `<h3>` , das den Titel für die Beschreibung in der Zeitleiste 
+darstellt. Es hat den Klassennamen  `timeline__title`  und den Text "Web Developer".
+
+-  `<p class="timeline__text">` : Dies ist ein HTML-Element  `<p>` , das den Text für die Beschreibung in der Zeitleiste darstellt. 
+Es hat den Klassennamen  `timeline__text` .
+
+-  `Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+At aperiam asperiores accusamus tempora perspiciatis voluptate quod sapiente dolore odit iure.
+` : Dies ist ein Platzhaltertext, der häufig in Design und Entwicklung verwendet wird.
+
+Dieser Code stellt also eine Erfahrung im Lebenslauf dar, die eine Zeitleiste mit dem Zeitraum, 
+dem Unternehmen und einer Beschreibung enthält. Die Klassennamen können für das Styling oder die Manipulation 
+der Elemente mit CSS oder JavaScript verwendet werden.
+
+---------------------------------------------------------------------------------------------------
+//Curriculum Vitae / progressbar//
+---------------------------------------------------------------------------------------------------
+<!--BOX RIGHT-->
+                    <section class="resume__right">
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">My <span class="subtitle__color">skills</span></h2>
+                        </header>
+
+                        <!--SKILLS-->
+                        <div class="resume__skills">
+
+                            <!--Skill # 1-->
+                            <article class="skills__title">
+                                <h4 class="skills__text">Wordpress</h4>
+                                <span class="skills__number">86%</span>
+                            </article>
+                            <!--Progressbar-->
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p1"></div>
+                            </div>
+							
+Der bereitgestellte Code repräsentiert die Fähigkeiten in einem Lebenslauf in HTML. 
+
+-  `<!--BOX RIGHT-->` : Dies ist ein HTML-Kommentar, der den Beginn des rechten Bereichs markiert.
+
+-  `<section class="resume__right">` : Dies ist ein HTML-Element  `<section>` , das den rechten Bereich des Lebenslaufs darstellt. 
+Es hat den Klassennamen  `resume__right` .
+
+-  `<header class="resume__subheader">` : Dies ist ein HTML-Element  `<header>` , das den Untertitel für den Lebenslauf darstellt. 
+Es hat den Klassennamen  `resume__subheader` .
+
+-  `<h2 class="resume__subtitle">My <span class="subtitle__color">skills</span></h2>` : Dies ist ein HTML-Element  
+`<h2>` , das den Untertitel "My skills" für den Lebenslauf darstellt. Es hat den Klassennamen  `resume__subtitle` . 
+Das Wort "skills" ist in einem  `<span>` -Element mit dem Klassennamen  `subtitle__color`  eingefärbt.
+
+-  `<div class="resume__skills">` : Dies ist ein HTML-Element  `<div>` , das die Fähigkeiten im Lebenslauf enthält. 
+Es hat den Klassennamen  `resume__skills` .
+
+-  `<article class="skills__title">` : Dies ist ein HTML-Element  `<article>` , das eine einzelne Fähigkeit im Lebenslauf darstellt. 
+Es hat den Klassennamen  `skills__title` .
+
+-  `<h4 class="skills__text">Wordpress</h4>` : Dies ist ein HTML-Element  `<h4>` , das den Text "Wordpress" für die Fähigkeit darstellt. 
+Es hat den Klassennamen  `skills__text` .
+
+-  `<span class="skills__number">86%</span>` : Dies ist ein HTML-Element  `<span>` , das die Prozentzahl für die Fähigkeit darstellt. 
+Es hat den Klassennamen  `skills__number`  und den Text "86%".
+
+-  `<div class="skills__progressbar">` : Dies ist ein HTML-Element  `<div>` , das die Fortschrittsleiste für die Fähigkeit darstellt. 
+Es hat den Klassennamen  `skills__progressbar` .
+
+-  `<div class="skills__percentage skills__percentage--p1"></div>` : Dies ist ein HTML-Element  `<div>` , das den Fortschrittsbalken 
+für die Fähigkeit darstellt. Es hat den Klassennamen  `skills__percentage`  und die zusätzliche Klasse  `skills__percentage--p1` .
+
+Dieser Code stellt also eine Fähigkeit im Lebenslauf dar, die den Namen "Wordpress" und eine Prozentzahl von 86% hat. 
+Die Fortschrittsleiste zeigt den Fortschritt der Fähigkeit an. Die Klassennamen können für das Styling 
+oder die Manipulation der Elemente mit CSS oder JavaScript verwendet werden.
+
+---------------------------------------------------------------------------------------------------
+//Curriculum Vitae / certificates//
+---------------------------------------------------------------------------------------------------
+<!--CONTAINER CERTIFICATES-->
+                <div class="resume__certificates">
+                    <header class="resume__subheader">
+                        <h1 class="resume__subtitle">Certificates</h1>
+                    </header>
+
+                    <section class="certificates__container">
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/certificado-1.png" class="certificate__image" />
+                            </div>
+                            <!--Certificate article # 1-->
+                            <div class="certificate__content">
+                                <!--Certificates description-->
+                                <h4 class="certificate__title">Master PHP, SQL, POO, MVC, Laravel, Sympony, Wordpress +</h4>
+                                <span class="certificate__id">ID Validation: X2023</span>
+                                <!--Certificates date-->
+                                <span class="certificate__date">10 July 2012</span>
+                            </div>
+                        </article>
+						
+Der bereitgestellte Code repräsentiert Zertifikate in einem Lebenslauf in HTML. 
+
+-  `<!--CONTAINER CERTIFICATES-->` : Dies ist ein HTML-Kommentar, der den Beginn des Zertifikate-Containers markiert.
+-  `<div class="resume__certificates">` : Dies ist ein HTML-Element  `<div>` , das als Container für die Zertifikate dient. 
+Es hat den Klassennamen  `resume__certificates` .
+
+-  `<header class="resume__subheader">` : Dies ist ein HTML-Element  `<header>` , das den Untertitel für den Lebenslauf darstellt. 
+Es hat den Klassennamen  `resume__subheader` .
+
+-  `<h1 class="resume__subtitle">Certificates</h1>` : Dies ist ein HTML-Element  `<h1>` , das den Untertitel "Certificates" 
+für den Lebenslauf darstellt. Es hat den Klassennamen  `resume__subtitle` .
+
+-  `<section class="certificates__container">` : Dies ist ein HTML-Element  `<section>` , das den Container für die Zertifikate darstellt. 
+Es hat den Klassennamen  `certificates__container` .
+
+-  `<article class="certificates__certificate">` : Dies ist ein HTML-Element  `<article>` , das ein einzelnes Zertifikat repräsentiert. 
+Es hat den Klassennamen  `certificates__certificate` .
+
+-  `<div class="certificate__logo">` : Dies ist ein HTML-Element  `<div>` , das das Logo des Zertifikats enthält. 
+Es hat den Klassennamen  `certificate__logo` .
+
+-  `<img src="assets/img/certificado-1.png" class="certificate__image" />` : Dies ist ein HTML-Element  `<img>` , das das Zertifikatsbild anzeigt. 
+Es hat den Quellpfad  `assets/img/certificado-1.png`  und den Klassennamen  `certificate__image` .
+
+-  `<div class="certificate__content">` : Dies ist ein HTML-Element  `<div>` , das den Inhalt des Zertifikats enthält. 
+Es hat den Klassennamen  `certificate__content` .
+
+-  `<h4 class="certificate__title">Master PHP, SQL, POO, MVC, Laravel, Sympony, Wordpress +</h4>` : Dies ist ein HTML-Element  `<h4>` 
+, das den Titel oder die Beschreibung des Zertifikats darstellt. 
+
+Es hat den Klassennamen  `certificate__title`  und den Text "Master PHP, SQL, POO, MVC, Laravel, Sympony, Wordpress +".
+-  `<span class="certificate__id">ID Validation: X2023</span>` : Dies ist ein HTML-Element  `<span>` , das die ID-Validierung 
+des Zertifikats darstellt. 
+
+Es hat den Klassennamen  `certificate__id`  und den Text "ID Validation: X2023".
+-  `<span class="certificate__date">10 July 2012</span>` : Dies ist ein HTML-Element  `<span>` , das das Datum des Zertifikats darstellt. 
+
+Es hat den Klassennamen  `certificate__date`  und den Text "10 July 2012".
+
+Dieser Code stellt also ein einzelnes Zertifikat im Lebenslauf dar, das ein Logo, einen Titel, eine ID-Validierung und ein Datum enthält. 
+Die Klassennamen können für das Styling oder die Manipulation der Elemente mit CSS oder JavaScript verwendet werden.
+
+---------------------------------------------------------------------------------------------------
+//Contact / form//
+---------------------------------------------------------------------------------------------------
+<!--CONTACT FORM-->
+                        <form action="https://formsubmit.co/bc32de991ccb53e015d3b2dc64713437" method="POST" class="contact__form">
+                            
+                            <div class="form__container">
+                                    <!--left form-->
+                                <section class="form__left">
+
+                                    <!--name-->
+                                    <div class="form__group">
+                                        <input type="text" class="form__input" name="name" required placeholder="Name"/>
+                                        <label for="name" class="form__label">Name</label>
+                                    </div>
+
+                                    <!--email-->
+                                    <div class="form__group">
+                                        <input type="email" class="form__input" name="email" required placeholder="E-mail"/>
+                                        <label for="email" class="form__label">E-mail</label>
+                                    </div>
+
+                                    <!--subject-->
+                                    <div class="form__group">
+                                        <input type="text" class="form__input" name="subject" required placeholder="Subject"/>
+                                        <label for="subject" class="form__label">Subject</label>
+                                    </div>
+									
+Der bereitgestellte Code repräsentiert ein Kontaktformular in HTML. 
+
+-  `<!--CONTACT FORM-->` : Dies ist ein HTML-Kommentar, der den Beginn des Kontaktformulars markiert.
+
+-  `<form action="https://formsubmit.co/bc32de991ccb53e015d3b2dc64713437" method="POST" class="contact__form">` : Dies ist ein HTML-Element  
+`<form>` , das das Kontaktformular darstellt. Es hat die Attribute  `action`  und  `method`  für die Formularverarbeitung und den Klassennamen  
+`contact__form` .
+
+-  `<div class="form__container">` : Dies ist ein HTML-Element  `<div>` , das den Container für das Formular darstellt. Es hat den Klassennamen  
+`form__container` .
+
+-  `<section class="form__left">` : Dies ist ein HTML-Element  `<section>` , das den linken Teil des Formulars darstellt. Es hat den Klassennamen  
+`form__left` .
+
+-  `<div class="form__group">` : Dies ist ein HTML-Element  `<div>` , das eine Gruppe von Eingabefeldern im Formular darstellt.
+Es hat den Klassennamen  `form__group` .
+
+-  `<input type="text" class="form__input" name="name" required placeholder="Name"/>` : Dies ist ein HTML-Element  `<input>` 
+, das ein Texteingabefeld für den Namen im Formular darstellt. Es hat den Klassennamen  `form__input` , den Attribut  `name`  
+für die Identifizierung des Feldes und das Attribut  `required`  für die Pflichteingabe. 
+Das Attribut  `placeholder`  gibt einen Platzhaltertext "Name" an.
+
+-  `<label for="name" class="form__label">Name</label>` : Dies ist ein HTML-Element  `<label>` 
+, das das Label für das Namenseingabefeld im Formular darstellt. Es hat das Attribut  `for`  
+mit dem Wert "name" zur Verknüpfung mit dem entsprechenden Eingabefeld und den Klassennamen  `form__label` .
+
+- Ähnlich wie oben beschrieben, gibt es Eingabefelder für E-Mail und Betreff im Formular.
+
+Dieser Code stellt also ein Kontaktformular dar, das Felder für Name, E-Mail und Betreff enthält. 
+Die Klassennamen können für das Styling oder die Manipulation der Elemente mit CSS oder JavaScript verwendet werden.
+
+---------------------------------------------------------------------------------------------------
+//Contact / message / btn send / btn reset / checkbox / validation //
+---------------------------------------------------------------------------------------------------
+<!--right form-->
+                                <section class="form__right">
+
+                                <!--message-->
+                                <div class="form__group form__group--textarea">
+                                    <textarea class="form__input form__input--textarea" name="message" required placeholder="Message"></textarea>
+                                    <label for="message" class="form__label">Message</label>
+                                </div>
+                                </section>
+                            </div>
+
+                            <!--btn send-->
+                            <input type="submit" class="form__button" value="send message" onclick="return confirmation()">
+
+                            <!--btn reset-->
+                            <button type="reset" class="form__button-reset">reset</button>
+
+                            <!--Checkbox - Terms and Conditions-->
+                            <input type="checkbox" class="form__checkbox" id="miCheckbox" name="miCheckbox" required>
+
+                            <!--Checkbox validation / script -->
+                            <script>
+                                function validarCheckbox() {
+                                var checkbox = document.getElementById("miCheckbox");
+                                if (checkbox.checked == false) {
+                                    alert("You must select the checkbox...");
+                                    return false;
+                                }
+                                }
+                                </script>
+								
+
+-  `<!--right form-->` : Dies ist ein HTML-Kommentar, der den Beginn des rechten Teils des Formulars markiert.
+
+-  `<section class="form__right">` : Dies ist ein HTML-Element  `<section>` , das den rechten Teil des Formulars darstellt. 
+Es hat den Klassennamen  `form__right` .
+
+-  `<div class="form__group form__group--textarea">` : Dies ist ein HTML-Element  `<div>` , das eine Gruppe für das Texteingabefeld im 
+Formular darstellt. Es hat den Klassennamen  `form__group`  und die zusätzliche Klasse  `form__group--textarea` .
+
+-  `<textarea class="form__input form__input--textarea" name="message" required placeholder="Message"></textarea>` : Dies ist ein HTML-Element  
+`<textarea>` , das ein Texteingabefeld für die Nachricht im Formular darstellt. Es hat die Klassennamen  `form__input`  und  `form__input--textarea` 
+, das Attribut  `name`  für die Identifizierung des Feldes, das Attribut  `required`  für die Pflichteingabe und den Platzhaltertext "Message".
+
+-  `<label for="message" class="form__label">Message</label>` : Dies ist ein HTML-Element  `<label>` , das das Label für das Texteingabefeld 
+der Nachricht im Formular darstellt. Es hat das Attribut  `for`  mit dem Wert "message" zur Verknüpfung mit dem entsprechenden 
+Eingabefeld und den Klassennamen  `form__label` .
+
+
+Weiterhin gibt es im Code:
+-  `<input type="submit" class="form__button" value="send message" onclick="return confirmation()">` : Dies ist ein HTML-Element  `<input>`  
+vom Typ "submit", das den Senden-Button im Formular darstellt. Es hat den Klassennamen  `form__button` , den Wert "send message" 
+als Beschriftung und den  `onclick` -Eventhandler für die Bestätigung.
+
+-  `<button type="reset" class="form__button-reset">reset</button>` : Dies ist ein HTML-Element  `<button>`  vom Typ "reset", 
+das den Zurücksetzen-Button im Formular darstellt. Es hat den Klassennamen  `form__button-reset` .
+
+-  `<input type="checkbox" class="form__checkbox" id="miCheckbox" name="miCheckbox" required>` : Dies ist ein HTML-Element  
+`<input>`  vom Typ "checkbox", das die Checkbox für die Zustimmung zu den Geschäftsbedingungen im Formular darstellt. Es hat den Klassennamen  
+`form__checkbox` , das Attribut  `id`  für die Identifizierung des Feldes, das Attribut  `name`  für die Identifizierung des Feldes in der 
+Formularübermittlung und das Attribut  `required`  für die Pflichtauswahl.
+
+- Der folgende JavaScript-Code validiert die Checkbox und zeigt eine Warnmeldung an, wenn sie nicht ausgewählt ist.
+
+Dieser Code stellt also das rechte Teil des Kontaktformulars dar, das ein Texteingabefeld für die Nachricht, Senden- 
+und Zurücksetzen-Buttons sowie eine Checkbox für die Zustimmung zu den Geschäftsbedingungen enthält. 
+Die Klassennamen können für das Styling oder die Manipulation der Elemente mit CSS oder JavaScript verwendet werden.
+
+---------------------------------------------------------------------------------------------------
+//Contact / captcha / message confirmation //
+---------------------------------------------------------------------------------------------------
+<label for="termsandConditions" class="form-termsandConditions" name="subject" required placeholder="Subject">I have read and accept the
+                            <a href="terms.html">Terms and Conditions</a></label>
+
+                            
+                            <!--captcha / local host / hidden web formsubmit.co-->
+                            <input type="hidden" name="_next" id="https://darwinpaz.luebco-server.de">
+                            <input type="hidden" name="_captcha" value="false">
+
+
+                            <!--message confirmation-->
+                            <script>
+                                function confirmation(){
+                                    var answer=confirm("Do you want to send this message?");
+                                    if(answer==true){
+                                        return true;
+                                    }else{
+                                        return false;
+                                    }
+                                }
+
+                            
+                            </script>
+							
+Der bereitgestellte Code repräsentiert ein HTML-Formular mit einigen zusätzlichen Funktionen. 
+
+-  `<label for="termsandConditions" class="form-termsandConditions" name="subject" 
+required placeholder="Subject">I have read and accept the <a href="terms.html">Terms and Conditions</a></label>` 
+: Dies ist ein HTML-Element  `<label>` , das den Text "Ich habe die <a href="terms.html">Allgemeinen Geschäftsbedingungen</a> 
+gelesen und akzeptiere sie" darstellt. Es hat das Attribut  `for`  mit dem Wert "termsandConditions" zur Verknüpfung mit einem anderen Element, 
+den Klassennamen  `form-termsandConditions` , das Attribut  `name`  für die Identifizierung des Feldes in der Formularübermittlung, 
+das Attribut  `required`  für die Pflichtauswahl und das Attribut  `placeholder`  für den Platzhaltertext "Subject".
+
+Weiterhin gibt es im Code:
+
+-  `<input type="hidden" name="_next" id="https://darwinpaz.luebco-server.de">` : Dies ist ein HTML-Element  `<input>`  
+vom Typ "hidden", das den nächsten Schritt nach der Formularübermittlung angibt. Es hat das Attribut  `name`  mit dem Wert 
+"_next" und das Attribut  `id`  mit dem Wert "https://darwinpaz.luebco-server.de".
+
+-  `<input type="hidden" name="_captcha" value="false">` : Dies ist ein HTML-Element  `<input>`  vom Typ "hidden", das angibt, 
+ob ein Captcha verwendet wird. Es hat das Attribut  `name`  mit dem Wert "_captcha" und das Attribut  `value`  mit dem Wert "false".
+
+- Der folgende JavaScript-Code zeigt eine Bestätigungsmeldung an und gibt  `true`  oder  `false`  zurück, 
+abhängig von der Benutzerantwort. Wenn der Benutzer die Bestätigung akzeptiert, wird  `true`  zurückgegeben, andernfalls  `false` .
+
+Dieser Code stellt also ein Formular dar, das den Benutzer auffordert, die Allgemeinen Geschäftsbedingungen zu akzeptieren, 
+und eine Bestätigung vor dem Senden der Nachricht anzeigt. Die Klassennamen können für das Styling oder die Manipulation 
+der Elemente mit CSS oder JavaScript verwendet werden.
+
+---------------------------------------------------------------------------------------------------
+//Reset.css //
+---------------------------------------------------------------------------------------------------
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    }
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+/* ICONS - LINKS */
+a{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+p a{
+    display: inline;
+}
+
+img, video, iframe, picture, figure{
+    max-width: 100%;
+    display: block;
+}
+
+form, input, select, textarea, button,label{
+    display: block;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+Der bereitgestellte Code enthält CSS-Stile für verschiedene Elemente. 
+
+-  `*{ margin: 0; padding: 0; vertical-align: baseline; }` : Dieser CSS-Code setzt die Ränder und den Abstand aller 
+Elemente auf 0 und die vertikale Ausrichtung auf die Baseline.
+
+-  `*, *::before, *::after{ box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; }` 
+: Dieser CSS-Code stellt sicher, dass das Box-Modell für alle Elemente verwendet wird, 
+einschließlich Pseudo-Elementen wie ::before und ::after.
+
+-  `html{ scroll-behavior: smooth; }` : Dieser CSS-Code aktiviert das sanfte Scrollen für das HTML-Element.
+
+-  `body{ min-height: 100vh; scroll-behavior: smooth; text-rendering: optimizeSpeed; line-height: 1.5; }` 
+: Dieser CSS-Code legt die Mindesthöhe des Body-Elements auf 100% 
+der sichtbaren Höhe des Viewports fest und aktiviert das sanfte Scrollen für den Body. 
+Er optimiert auch die Textdarstellung für eine bessere Geschwindigkeit und legt die Zeilenhöhe auf 1,5 fest.
+
+-  `ul, ol{ list-style: none; }` : Dieser CSS-Code entfernt die Aufzählungszeichen für ungeordnete (ul) und geordnete (ol) Listen.
+
+-  `a{ display: block; text-decoration: none; color: inherit; }` : Dieser CSS-Code stellt sicher, 
+dass Links als Blockelemente angezeigt werden und keine Unterstreichung und Farbe von der Elternklasse erben.
+
+-  `p a{ display: inline; }` : Dieser CSS-Code stellt sicher, dass Links innerhalb von Absatz-Tags als Inline-Elemente angezeigt werden.
+
+-  `img, video, iframe, picture, figure{ max-width: 100%; display: block; }` 
+: Dieser CSS-Code stellt sicher, dass Bilder, Videos, iframes, Bilder- und Figure-Elemente eine maximale 
+Breite von 100% haben und als Blockelemente angezeigt werden.
+
+-  `form, input, select, textarea, button, label{ display: block; font-family: inherit; font-size: inherit; color: inherit; }` 
+: Dieser CSS-Code stellt sicher, dass Formularelemente wie Formulare, Eingabefelder, Auswahlfelder, 
+Textareas, Schaltflächen und Labels als Blockelemente angezeigt werden und die Schriftart, 
+Schriftgröße und Farbe von der Elternklasse erben.
+
+Dieser Code enthält grundlegende CSS-Stile, um das Aussehen und Verhalten der verschiedenen HTML-Elemente zu definieren. 
+Die Stile können für das Styling und die Anpassung von Webseiten verwendet werden.
+
+---------------------------------------------------------------------------------------------------
+//Menü.js //
+---------------------------------------------------------------------------------------------------
+// Menu Nav responsive icons = visible / hidden
+document.addEventListener("DOMContentLoaded", (event) =>{
+
+    let button = document.querySelector(".layout__menu-toggle");
+    let icon_bars = document.querySelector(".layout__menu-toggle .fa-bars");
+    let icon_xmark = document.querySelector(".layout__menu-toggle .fa-xmark");
+    let aside = document.querySelector(".layout__aside");
+
+    button.addEventListener("click", (event) => {
+
+        let visible = document.querySelector(".layout__aside--visible");
+
+        if(!visible){
+            aside.classList.add("layout__aside--visible");
+            icon_bars.style.opacity = 0;
+            icon_xmark.style.opacity = 1;
+        }else{
+            aside.classList.remove("layout__aside--visible");
+            icon_bars.style.opacity = 1;
+            icon_xmark.style.opacity = 0;
+        }
+    })
+
+    // Windows resize
+    window.addEventListener("resize",() =>{
+        let size = parseInt(document.body.clientWidth);
+
+            if(size <= 1060){
+                aside.classList.remove("layout__aside--visible");
+                icon_bars.style.opacity = 1;
+                icon_xmark.style.opacity = 0;
+            }
+    });
+});
+
+Der bereitgestellte Code ist JavaScript-Code, der das reaktionsfähige Verhalten einer Menü-Navigation behandelt. 
+
+
+-  `document.addEventListener("DOMContentLoaded", (event) => { ... })` : Dieser Code stellt sicher, dass der 
+JavaScript-Code innerhalb des Event Listeners ausgeführt wird, wenn das 
+DOM (Document Object Model) vollständig geladen ist.
+
+-  `let button = document.querySelector(".layout__menu-toggle");` 
+: Diese Zeile wählt das Menü-Toggle-Button-Element mit der Klassenbezeichnung "layout__menu-toggle" aus.
+
+-  `let icon_bars = document.querySelector(".layout__menu-toggle .fa-bars");` 
+: Diese Zeile wählt das Balken-Symbol-Element innerhalb des Menü-Toggle-Buttons aus.
+
+-  `let icon_xmark = document.querySelector(".layout__menu-toggle .fa-xmark");` 
+: Diese Zeile wählt das X-Marken-Symbol-Element innerhalb des Menü-Toggle-Buttons aus.
+
+-  `let aside = document.querySelector(".layout__aside");` 
+: Diese Zeile wählt das Aside-Element mit der Klassenbezeichnung "layout__aside" aus.
+
+-  `button.addEventListener("click", (event) => { ... })` 
+: Dieser Code fügt dem Menü-Toggle-Button einen Klick-Event-Listener hinzu.
+
+- Innerhalb des Klick-Event-Listeners überprüft der Code, ob das Aside-Element die 
+Klasse "layout__aside--visible" hat, indem er die  `querySelector` -Methode verwendet. 
+Wenn es die Klasse nicht hat, wird die Klasse hinzugefügt, das Balken-Symbol ausgeblendet und das X-Marken-Symbol angezeigt. 
+Wenn es die Klasse hat, wird die Klasse entfernt, das Balken-Symbol angezeigt und das X-Marken-Symbol ausgeblendet.
+
+-  `window.addEventListener("resize", () => { ... })` 
+: Dieser Code fügt dem Fenster einen Resize-Event-Listener hinzu.
+
+- Innerhalb des Resize-Event-Listeners überprüft der Code die Client-Breite des Body-Elements mit  
+`document.body.clientWidth` . Wenn die Breite kleiner oder gleich 1060 Pixel ist, wird die Klasse 
+"layout__aside--visible" aus dem Aside-Element entfernt, das Balken-Symbol angezeigt und das X-Marken-Symbol ausgeblendet.
+
+
+Dieser Code bietet die Funktionalität, die Sichtbarkeit einer Menü-Navigation umzuschalten und ihr 
+Erscheinungsbild basierend auf der Fenstergröße anzupassen.
+
+----------------------------------------------------------------------------------------------------
+INDEX.html-Seite
+----------------------------------------------------------------------------------------------------
+<!--Beginning of header-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <meta http-equiv="cache-control" content="cache">
+    <!--Call script-->
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/menu.js" defer></script>
+    <!--Copyright, Publisher, Autor-->
+    <meta name="authors" content="Darwin Paz & Matthias Majowski">
+    <meta name="publisher" content="Darwin Paz & Matthias Majowski">
+    <meta name="copyright" content="© D.Paz & M.Majowski">
+    <!--Page description-->
+    <meta name="description" content="Seitenbeschreibung.">
+    <!--Marketing Keywords-->
+    <meta name="keywords" content="keywords">
+
+    <!--Google robots for indexing-->
+    <!--<meta name="robots" content="index, follow">-->
+    
+    <!--Google is not allowed to index the page-->
+    <meta name="robots" content="noindex, nofollow">
+
+    <!--Favicon-->
+    <link rel="icon" type="favicon" href="assets/img/favicon-2.png" />
+    <!--Styles-->
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/scroll.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <!--Title-->
+    <title>CV - LF10aV2</title>
+</head>
+
+Dieser Code definiert den Kopfbereich (head) einer HTML-Seite. Hier sind verschiedene Metadaten und Verweise auf externe Dateien angegeben. 
+ 
+-  <meta charset="UTF-8">  definiert die Zeichenkodierung der Seite als UTF-8, was eine gängige Kodierung für multilinguale Webseiten ist. 
+
+-  <meta http-equiv="X-UA-Compatible"content="IE=edge">  gibt an, dass die Seite im Internet Explorer im Standardmodus angezeigt werden soll. 
+
+-  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">  
+und  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">  
+legen die Ansichtsgröße und das Skalierungsverhalten der Seite auf mobilen Geräten fest. 
+
+-  <meta http-equiv="cache-control"content="cache">  definiert die Cache-Einstellungen für die Seite. 
+
+- Die  <script> -Tags verweisen auf JavaScript-Dateien, die später im Dokument geladen und ausgeführt werden sollen.  
+src="assets/js/main.js"  und  src="assets/js/menu.js"  geben die Pfade zu den Dateien an. 
+
+- Die  <meta> -Tags mit den Attributen  name="authors" ,  name="publisher"  
+und  name="copyright"  enthalten Informationen über die Autoren und den Herausgeber der Seite. 
+
+-  <meta name="description" content="Seitenbeschreibung.">  gibt eine kurze Beschreibung der Seite an. 
+
+-  <meta name="keywords" content="keywords">  definiert Schlüsselwörter für die Suchmaschinenoptimierung (SEO). 
+
+-  <meta name="robots" content="noindex, nofollow">  gibt an, dass Suchmaschinen die Seite nicht indexieren oder verfolgen sollen. 
+
+-  <link rel="icon" type="favicon" href="assets/img/favicon-2.png" />  verweist auf das Favicon der Seite, 
+das in der Browser-Registerkarte angezeigt wird. 
+
+- Die  <link> -Tags verweisen auf externe CSS-Dateien, die für die Gestaltung der Seite verwendet werden. 
+Es gibt verschiedene Stylesheets für Schriftarten, Reset, Scrollverhalten, allgemeine Styles und Responsive Design. 
+
+-  <title>CV - LF10aV2</title>  definiert den Titel der Seite, der im Browser-Tab angezeigt wird.
+
+------------------------------------------------------------------------------------------------------
+
+<body>
+    
+    <!--BEGINNING OF BODY - LAYOUT-->
+    <div class="layout">
+
+        <!--side container (info user)-->
+        <aside class="layout__aside">
+        
+            <section class="aside__user-info">
+
+                <!--information user-->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <!--User image-->
+                        <img src="assets/img/default-user.jpg" class="user-info__image" alt="Image user">
+                    </div>
+                    <!--Name + job-->
+                    <h2 class="user-info__name">Alexio Mustermann</h2>
+                    <h4 class="user-info__job">DEV</h4>
+                </div>
+
+                <!--MENU NAV-->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+                    
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="about-me.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">About me</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="curriculum.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Curriculum</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="portfolio.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Portfolio</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="blog.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-book"></i>
+                                <span class="menu__overlay">Blog</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="contact.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+				
+Dieser Code definiert den Hauptbereich (body) einer HTML-Seite. 
+Hier wird das Layout der Seite erstellt und verschiedene Elemente wie Benutzerinformationen und ein Menü hinzugefügt.
+
+-  `<div class="layout">`  definiert einen Container für das gesamte Layout der Seite.
+
+-  `<aside class="layout__aside">`  definiert einen seitlichen Container für Benutzerinformationen.
+
+-  `<section class="aside__user-info">`  definiert einen Abschnitt für die Benutzerinformationen.
+
+-  `<div class="user-info__general">`  definiert einen allgemeinen Container für die Benutzerinformationen.
+
+-  `<div class="user-info__container-image">`  definiert einen Container für das Benutzerbild.
+
+-  `<img src="assets/img/default-user.jpg" class="user-info__image" alt="Image user">`  fügt das Benutzerbild hinzu.
+
+-  `<h2 class="user-info__name">Alexio Mustermann</h2>`  gibt den Namen des Benutzers an.
+
+-  `<h4 class="user-info__job">DEV</h4>`  gibt den Beruf des Benutzers an.
+
+-  `<nav class="layout__menu">`  definiert das Menü der Seite.
+
+-  `<ul class="menu__list">`  definiert eine ungeordnete Liste für die Menüoptionen.
+
+-  `<li class="menu__option">`  definiert eine einzelne Menüoption.
+
+-  `<a href="index.html" class="menu__link menu__link--active">`  definiert einen Link für die Menüoption 
+und fügt eine aktive Klasse hinzu, um anzuzeigen, dass dies die aktuelle Seite ist.
+
+-  `<i class="menu__icon fa-solid fa-house"></i>`  fügt ein Symbol zur Menüoption hinzu.
+
+-  `<span class="menu__overlay">Home</span>`  fügt einen Text zur Menüoption hinzu.
+
+- Dies wird für jede Menüoption wiederholt, wobei sich das Symbol und der Text ändern.
+
+--------------------------------------------------------------------------------------
+
+<!--SOCIALS-->
+                <div class="user-info__user-links">
+
+                    <ul class="links__social">
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+Dieser Code erstellt einen Abschnitt für soziale Links im Benutzerprofil.
+
+-  `<div class="user-info__user-links">`  definiert einen Container für die sozialen Links.
+
+-  `<ul class="links__social">`  definiert eine ungeordnete Liste für die sozialen Links.
+
+-  `<li class="social__option">`  definiert eine einzelne Option für einen sozialen Link.
+
+-  `<a href="#" class="social__link">`  definiert einen Link für den sozialen Link.
+
+-  `<i class="fa-brands fa-facebook"></i>`  fügt das Facebook-Symbol zum sozialen Link hinzu.
+
+- Dies wird für jeden sozialen Link wiederholt, wobei das Symbol je nach Plattform variiert 
+(z. B. Facebook, Instagram, GitHub).
+
+--------------------------------------------------------------------------------------------
+
+<!--BTN DOWNLOAD CV-->
+                <div class="user-info__buttons">
+                    <a download="download" href="assets/pdf/ec-it-book.pdf" class="user-info__btn">Download CV</a>
+                </div>
+
+            <!--FOOTER-->
+            <footer class="user-info__footer">
+                &copy; 2023 D.Paz & M.Majowski | All rights reserved <Br/>Design by LF10aV2
+            </footer>
+            </section>
+        </aside>
+
+        <!--MENU NAV RESPONSIVE-->
+        <div class="layout__menu-toggle">
+            <i class="menu-toggle__icon fa-solid fa-bars"></i>
+            <i class="menu-toggle__icon fa-solid fa-xmark"></i>
+        </div>
+
+        <!--MAIN CONTENT-->
+        <main class="layout__content">
+            
+            <section class="content__page">
+                <h1 class="page__name">Alexio Mustermann</h1>
+                <h2 class="page__job">Web Dev</h2>
+            </section>
+
+        </main>
+    </div>
+
+</body>
+<!--END OF BODY-->
+</html>
+
+
+Dieser Code definiert den Rest des HTML-Bereichs der Seite.
+
+-  `<div class="user-info__buttons">`  definiert einen Container für die Benutzer-Schaltflächen.
+
+-  `<a download="download" href="assets/pdf/ec-it-book.pdf" class="user-info__btn">Download CV</a>`  fügt eine Schaltfläche hinzu, 
+um den Lebenslauf herunterzuladen. Der  `download` -Attribut gibt den Dateinamen an und der  `href` -Attribut gibt den Pfad zur PDF-Datei an.
+
+-  `<footer class="user-info__footer">`  definiert den Fußbereich der Seite.
+
+-  `&copy; 2023 D.Paz & M.Majowski | All rights reserved <Br/>Design by LF10aV2`  gibt das Urheberrecht und den Designer der Seite an.
+
+-  `<div class="layout__menu-toggle">`  definiert einen Container für das Menü-Toggle-Symbol in der responsiven Ansicht.
+
+-  `<i class="menu-toggle__icon fa-solid fa-bars"></i>`  fügt das Menü-Toggle-Symbol mit den horizontalen Balken hinzu.
+
+-  `<i class="menu-toggle__icon fa-solid fa-xmark"></i>`  fügt das Menü-Toggle-Symbol mit dem X-Markierungs-Symbol hinzu.
+
+-  `<main class="layout__content">`  definiert den Hauptinhalt der Seite.
+
+-  `<section class="content__page">`  definiert einen Abschnitt für die Seiteninhalte.
+
+-  `<h1 class="page__name">Alexio Mustermann</h1>`  gibt den Namen des Benutzers an.
+
+-  `<h2 class="page__job">Web Dev</h2>`  gibt den Beruf des Benutzers an.
+
+Dieser Code bildet den Rest des Layouts der Seite, einschließlich des Fußbereichs, des Menüs, des Hauptinhalts und der Seitenüberschrift.
+
+----------------------------------------------------------------------------------------------------
+ABOUT ME.html-Seite / Von Zeile 1 bis Zeile 149 wiederholt sich der Code immer
+----------------------------------------------------------------------------------------------------
+
+<!--MAIN CONTENT-->
+        <main class="layout__content">
+            
+            <!--THIS CONTENT CHANGES ON EACH PAGE OF THE WEBSITE-->
+            <section class="content__page content__about">
+                <header class="about__header">
+                    <h1 class="about__title">About <span class="title__color">me</span></h1>
+                </header>
+
+                <section class="about__personal-info">
+                    <article class="personal-info__biography">
+                        <p class="personal-info__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+							Recusandae aliquam reiciendis totam enim sequi architecto accusamus ipsam nihil. 
+							Nobis assumenda voluptatibus modi ipsam cum provident numquam aliquam eius blanditiis error!
+                            Quo accusantium voluptatibus repellat dolores temporibus eum eligendi inventore? Deserunt omnis explicabo, 
+							consequuntur illo adipisci repellat nihil et consequatur aliquid molestiae eius quod.
+                        </p>
+                    </article>
+					
+Dieser Code definiert den Hauptinhalt (main content) einer Webseite.
+
+-  `<main class="layout__content">`  definiert den Hauptinhalt der Seite.
+
+-  `<section class="content__page content__about">`  definiert einen Abschnitt für den Inhalt der Seite, der sich auf die "About" Seite bezieht.
+
+-  `<header class="about__header">`  definiert den Kopfbereich des "About" Abschnitts.
+
+-  `<h1 class="about__title">About <span class="title__color">me</span></h1>`  gibt den Titel "About me" an, wobei "me" 
+in einer anderen Farbe dargestellt wird.
+
+-  `<section class="about__personal-info">`  definiert einen Abschnitt für persönliche Informationen im "About" Bereich.
+
+-  `<article class="personal-info__biography">`  definiert einen Artikel für die Biografie im "About" Bereich.
+
+-  `<p class="personal-info__description">`  gibt eine Beschreibungstext über die Person an.
+
+Dieser Code stellt den Inhalt der "About" Seite dar, einschließlich des Titels, der persönlichen Informationen und der Biografie.
+
+----------------------------------------------------------------------------------------------------
+
+<!--MAIN CONTENT-->
+        <main class="layout__content">
+            
+            <!--THIS CONTENT CHANGES ON EACH PAGE OF THE WEBSITE-->
+            <section class="content__page content__about">
+                <header class="about__header">
+                    <h1 class="about__title">About <span class="title__color">me</span></h1>
+                </header>
+
+                <section class="about__personal-info">
+                    <article class="personal-info__biography">
+                        <p class="personal-info__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae aliquam reiciendis totam enim sequi 
+							architecto accusamus ipsam nihil. Nobis assumenda voluptatibus modi ipsam cum provident numquam 
+							aliquam eius blanditiis error!
+                            Quo accusantium voluptatibus repellat dolores temporibus eum eligendi inventore? Deserunt omnis explicabo, 
+							consequuntur illo adipisci repellat nihil et consequatur aliquid molestiae eius quod.
+                        </p>
+                    </article>
+					
+					
+Dieser Code definiert den Hauptinhalt (main content) einer Webseite.
+
+-  `<main class="layout__content">`  definiert den Hauptinhalt der Seite.
+
+-  `<section class="content__page content__about">`  definiert einen Abschnitt für den Inhalt der Seite, der sich auf die "About" Seite bezieht.
+
+-  `<header class="about__header">`  definiert den Kopfbereich des "About" Abschnitts.
+
+-  `<h1 class="about__title">About <span class="title__color">me</span></h1>`  gibt den Titel "About me" 
+an, wobei "me" in einer anderen Farbe dargestellt wird.
+
+-  `<section class="about__personal-info">`  definiert einen Abschnitt für persönliche Informationen im "About" Bereich.
+
+-  `<article class="personal-info__biography">`  definiert einen Artikel für die Biografie im "About" Bereich.
+
+-  `<p class="personal-info__description">`  gibt eine Beschreibungstext über die Person an.
+
+Dieser Code stellt den Inhalt der "About" Seite dar, einschließlich des Titels, der persönlichen Informationen und der Biografie.
+
+----------------------------------------------------------------------------------------------------
+
+<!--PERSONAL DATA-->
+                    <div class="personal-info__data">
+                        <ul class="personal-info__list">
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Alter</span>
+                                <span class="personal-info__value">43</span>
+                            </li>
+
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Land</span>
+                                <span class="personal-info__value">Germany</span>
+                            </li>
+
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Stadt</span>
+                                <span class="personal-info__value">Darmstadt</span>
+                            </li>
+
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Adresse</span>
+                                <span class="personal-info__value">Am Herrnacker 80 | 64293</span>
+                            </li>
+
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">E-mail</span>
+                                <span class="personal-info__value">alexio@mustermann.com</span>
+                            </li>
+
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Telefon</span>
+                                <span class="personal-info__value">666 777 888</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </section>
+				
+Dieser Code definiert den Abschnitt für persönliche Daten.
+
+-  `<div class="personal-info__data">`  definiert einen Container für die persönlichen Daten.
+
+-  `<ul class="personal-info__list">`  definiert eine ungeordnete Liste für die persönlichen Daten.
+
+-  `<li class="personal-info__option">`  definiert eine einzelne Option für eine persönliche Datenkategorie.
+
+-  `<span class="personal-info__title">Alter</span>`  gibt den Titel "Alter" für das persönliche Datum an.
+
+-  `<span class="personal-info__value">43</span>`  gibt den Wert "43" für das Alter an.
+
+- Dies wird für jede persönliche Datenkategorie wiederholt, wobei sich der Titel und der Wert ändern (
+z. B. Land, Stadt, Adresse, E-Mail, Telefon).
+
+Dieser Code stellt eine Liste mit persönlichen Daten dar, einschließlich Alter, 
+Land, Stadt, Adresse, E-Mail und Telefonnummer.
+
+----------------------------------------------------------------------------------------------------
+
+<!--SERVICES-->
+                <section class="about__services">
+                    <header class="services__header">
+                        <h2 class="services__title">My <span class="title__color">services</span></h2>
+                    </header>
+
+                    <div class="services__container">
+
+                        <!--SERVICES #1-->
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-angles-right"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h3 class="service__title">Programmierung</h3>
+                                <p class="service__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+								Culpa dolorem sit eveniet voluptate,lum dolores id velit deleniti officiis modi quisquam at! Neque
+
+                                </p>
+                            </div>
+                        </article>
+
+                        <!--SERVICES #2-->
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-angles-right"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h3 class="service__title">Web Entwicklung</h3>
+                                <p class="service__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+								Culpa dolorem sit eveniet voluptate,lum dolores id velit deleniti officiis modi quisquam at! Neque
+
+                                </p>
+                            </div>
+                        </article>
+
+                        <!--SERVICES #3-->
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-angles-right"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h3 class="service__title">Grafikdesign</h3>
+                                <p class="service__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+								Culpa dolorem sit eveniet voluptate,lum dolores id velit deleniti officiis modi quisquam at! Neque
+
+                                </p>
+                            </div>
+                        </article>
+
+                        <!--SERVICES #4-->
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-angles-right"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h3 class="service__title">Systemadministration</h3>
+                                <p class="service__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+								Culpa dolorem sit eveniet voluptate,lum dolores id velit deleniti officiis modi quisquam at! Neque
+
+                                </p>
+                            </div>
+                        </article>
+
+                    </div>
+                </section>
+				
+Dieser Code definiert den Abschnitt für Dienstleistungen.
+
+-  `<section class="about__services">`  definiert den Abschnitt für die Dienstleistungen.
+
+-  `<header class="services__header">`  definiert den Kopfbereich des Dienstleistungsabschnitts.
+
+-  `<h2 class="services__title">My <span class="title__color">services</span></h2>`  gibt den Titel "My services" 
+an, wobei "services" in einer anderen Farbe dargestellt wird.
+
+-  `<div class="services__container">`  definiert einen Container für die Dienstleistungen.
+
+-  `<article class="services__service">`  definiert einen Artikel für eine einzelne Dienstleistung.
+
+-  `<div class="service__icon">`  definiert einen Container für das Dienstleistungssymbol.
+
+-  `<i class="service__real-icon fa-solid fa-angles-right"></i>`  fügt das Symbol für die Dienstleistung hinzu.
+
+-  `<div class="service__content">`  definiert einen Container für den Inhalt der Dienstleistung.
+
+-  `<h3 class="service__title">Programmierung</h3>`  gibt den Titel "Programmierung" für die Dienstleistung an.
+
+-  `<p class="service__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolorem sit eveniet voluptate,
+lum dolores id velit deleniti officiis modi quisquam at! Neque</p>`  gibt eine Beschreibung der Dienstleistung an.
+
+Dieser Code stellt eine Liste von Dienstleistungen dar, einschließlich Programmierung, 
+Webentwicklung, Grafikdesign und Systemadministration. Jede Dienstleistung hat einen Titel und eine Beschreibung.
+
+-------------------------------------------------------------------------------------------
+
+<!--REVIEWS-->
+                <section class="about__reviews">
+                    <header class="reviews__header">
+                        <h2 class="reviews__title">Reviews</h2>
+                    </header>
+
+                    <!--REVIEWS CONTAINER-->
+                    <div class="reviews__container">
+                        <article class="reviews__review">
+
+                            <!--REVIEWS IMG # 1-->
+                            <div class="review__img-container">
+                                <img src="assets/img/testimonio1.png" class="review__image" alt="client-1">
+                            </div>
+                            <!--REVIEWS DESCRIPTION-->
+                        <div class="review__description">
+                            <p class="review__text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                        <!--REVIEWS AUTHOR-->
+                        <div class="review__author">
+                            <h4 class="review__name">Anna Mustermann</h4>
+                            <h5 class="review__company">Developers S.A</h5>
+                        </div>
+                        <!--REVIEWS AUTHOR ICON-->
+                        <div class="review__author-icon">
+                            <i class="review__icon fa-solid fa-quote-right"></i>
+                        </div>
+                        </article>
+
+                        <!--REVIEWS AUTHOR # 2-->
+                        <article class="reviews__review">
+
+                            <!--REVIEWS IMG # 2-->
+                            <div class="review__img-container">
+                                <img src="assets/img/testimonio2.png" class="review__image" alt="client-1">
+                            </div>
+                            <!--REVIEWS DESCRIPTION # 2-->
+                        <div class="review__description">
+                            <p class="review__text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                        <!--REVIEWS AUTHOR # 2-->
+                        <div class="review__author">
+                            <h4 class="review__name">Uwe Mustermann</h4>
+                            <h5 class="review__company">Fullstack S.L</h5>
+                        </div>
+                        <!--REVIEWS AUTHOR ICON-->
+                        <div class="review__author-icon">
+                            <i class="review__icon fa-solid fa-quote-right"></i>
+                        </div>
+
+                        </article>
+                    </div>
+                </section>
+				
+Dieser Code definiert den Abschnitt für Bewertungen (Reviews).
+
+-  `<section class="about__reviews">`  definiert den Abschnitt für die Bewertungen.
+
+-  `<header class="reviews__header">`  definiert den Kopfbereich des Bewertungsabschnitts.
+
+-  `<h2 class="reviews__title">Reviews</h2>`  gibt den Titel "Reviews" an.
+
+-  `<div class="reviews__container">`  definiert einen Container für die Bewertungen.
+
+-  `<article class="reviews__review">`  definiert einen Artikel für eine einzelne Bewertung.
+
+-  `<div class="review__img-container">`  definiert einen Container für das Bild der Bewertung.
+
+-  `<img src="assets/img/testimonio1.png" class="review__image" alt="client-1">`  fügt das Bild der Bewertung hinzu.
+
+-  `<div class="review__description">`  definiert einen Container für die Beschreibung der Bewertung.
+
+-  `<p class="review__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>`  gibt den Text der Bewertung an.
+
+-  `<div class="review__author">`  definiert einen Container für den Autor der Bewertung.
+
+-  `<h4 class="review__name">Anna Mustermann</h4>`  gibt den Namen des Autors der Bewertung an.
+
+-  `<h5 class="review__company">Developers S.A</h5>`  gibt das Unternehmen des Autors der Bewertung an.
+
+-  `<div class="review__author-icon">`  definiert einen Container für das Symbol des Autors der Bewertung.
+
+-  `<i class="review__icon fa-solid fa-quote-right"></i>`  fügt das Zitat-Symbol hinzu.
+
+Dieser Code stellt eine Liste von Bewertungen dar, einschließlich des Bildes, 
+der Beschreibung, des Autors und des Zitat-Symbols für jede Bewertung.
+
+---------------------------------------------------------------------
+
+
+
+
