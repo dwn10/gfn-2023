@@ -350,3 +350,11 @@
         
     }
 }
+
+/*--container >400px--*/
+@media (max-width: 400px){
+    .page__name{
+        flex-basis: 100%;
+        padding: 0.6rem 0.6rem;
+    }
+}
