@@ -87,6 +87,5 @@ er jedoch nicht für kommerzielle oder gewinnbringende Zwecke verwendet werden k
 | `Darmstadt`      | `Do - 28.09.2023` | **16:30 Uhr**  |
 
 ## Fertiges Projekt
-
 **Achtung,** dies ist eine Demo-Website: 
 [Projekt aufrufen](https://darwinpaz.luebco-server.de/index.html)
