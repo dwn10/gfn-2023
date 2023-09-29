@@ -1307,9 +1307,13 @@ color: var(--color-principal);
     margin-left: 2rem;
     position: relative;
     margin-top: -1.5rem;
-    color: var(--color-secondary);
+    color: var(--color-subtitle);
     font-size: 1.1rem;
     text-align:justify
+}
+
+.form-termsandConditions:hover{
+    color: blue;
 }
 
 
