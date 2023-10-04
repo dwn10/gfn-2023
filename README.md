@@ -26,7 +26,7 @@ Die Website ist vollständig responsiv, d. h. sie passt sich an jedes Gerät an,
 ## Durchführung!
 
 <p align='left'>
-<img src="https://media.giphy.com/media/ZDTbix65Me1YDNLDF3/giphy.gif" width="280" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></img></p>
+<img src="https://media.giphy.com/media/gh0RRgkTXedvF0pDc0/giphy.gif" width="280" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></img></p>
 <p align="left">
 
 ## Das Webportfolio besteht aus folgenden Abschnitten:
