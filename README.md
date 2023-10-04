@@ -5,7 +5,7 @@
 const LF10aV2 Project = {
   	code: ["HTML", "CSS", "Javascript"],
 	technologies: {
-	dev: ["Visual Studio code"]
+	dev: ["Visual Studio Code"]
 	}
 }
 ```
