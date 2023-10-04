@@ -25,10 +25,9 @@ Die Website ist vollständig responsiv, d. h. sie passt sich an jedes Gerät an,
 
 ## Durchführung!
 
-<a href="#" target="_blank">
-<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F1947484.jpg&f=1&nofb=1&ipt=bb65c0a0324157fb543221c4fdefe4420b909263f1f7f8b82da9743ab4741c5d&ipo=images" 
-	alt="Web-Portfolio - gfn-2023" width="450" height="260" border="10" />
-</a>
+<p align='left'>
+<img src="https://media.giphy.com/media/ZDTbix65Me1YDNLDF3/giphy.gif" width="280" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></img></p>
+<p align="left">
 
 ## Das Webportfolio besteht aus folgenden Abschnitten:
 
