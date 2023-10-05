@@ -87,4 +87,4 @@ er jedoch nicht für kommerzielle oder gewinnbringende Zwecke verwendet werden k
 
 ## Fertiges Projekt
 **Achtung,** dies ist eine Demo-Website: 
-[Projekt aufrufen](https://darwinpaz.luebco-server.de/index.html)
+[Projekt aufrufen](https://darwin-paz.ecuadorit.site/)
