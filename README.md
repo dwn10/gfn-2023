@@ -5,9 +5,9 @@
 const LF10aV2 Project = {
   	code: ["HTML", "CSS", "Javascript"],
 	technologies: {
-	dev: ["Visual Studio Code"]
+	devTool: ["Visual Studio Code"]
 	}
-}
+};
 ```
 ## Quellen für dieses Projekt
 <ul>
