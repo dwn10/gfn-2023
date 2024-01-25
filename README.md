@@ -47,7 +47,7 @@ In diesem Abschnitt finden Sie detailliertere Informationen über den Entwickler
 Dieser Abschnitt bietet eine Zusammenfassung der Erfahrungen und Fähigkeiten des Entwicklers.
 
 <p align='left'>
-<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200182075765047326/gfn-web-curriculum.gif?ex=65c53fa9&is=65b2caa9&hm=f08d0843d8394850cfc44b67a6339a34f2924a20ff85e87a668d0faefb8084ec&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200185415945158818/gfn-web-curriculum.gif?ex=65c542c5&is=65b2cdc5&hm=42c7cdc302a193b2f701b9034e52e1cab8f52f5f622a56cca64abc0dcd8ea705&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
 
 ## Das Webportfolio besteht aus folgenden Abschnitten:
