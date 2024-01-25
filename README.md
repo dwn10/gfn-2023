@@ -71,6 +71,13 @@ In diesem Abschnitt finden Sie Informationen zur Kontaktaufnahme mit dem Entwick
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200189462144102470/gfn-web-kontakte.gif?ex=65c5468a&is=65b2d18a&hm=797338a827d8e9f424c02f66d1e56c7948b7fc1b9fbb815249b4cf6aff358afe&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
 
+## Soziale Medien:
+Dieser Abschnitt enthält Links zu den Social-Media-Profilen des Entwicklers.
+
+<p align='left'>
+<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200192972071895140/gfn-web-soziale.gif?ex=65c549cf&is=65b2d4cf&hm=dc65575ba231e8f427385488bb2e302f561dabcd7c78f70f9dea7dda9c560c52&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<p align="left">
+
 ## Impressum / Datenschutzerklärung / Geschäftsbedingungen Muster:
 
 <p align='left'>
