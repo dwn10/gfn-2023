@@ -37,42 +37,44 @@ In diesem Abschnitt werden der Entwickler und seine Arbeit vorgestellt. Enthält
 <p align="left">
 
 ## Über mich:
-In diesem Abschnitt finden Sie detailliertere Informationen über den Entwickler, z. B. seine Ausbildung, Erfahrung und Ziele.
+Hier finden Sie detailliertere Informationen über den Entwickler, z. B. seine Ausbildung, Erfahrung und Ziele.
 
 <p align='left'>
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200182008907829298/gfn-web-about.gif?ex=65c53f99&is=65b2ca99&hm=50b99784520090fcbbb90c047bc5cd0140e1326da7f2fb9ad66c4ca6f2c88964&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
 
 ## Lebenslauf:
-Dieser Abschnitt bietet eine Zusammenfassung der Erfahrungen und Fähigkeiten des Entwicklers.
+Zusammenfassung der Erfahrungen und Fähigkeiten des Entwicklers.
 
 <p align='left'>
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200185415945158818/gfn-web-curriculum.gif?ex=65c542c5&is=65b2cdc5&hm=42c7cdc302a193b2f701b9034e52e1cab8f52f5f622a56cca64abc0dcd8ea705&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
 
 ## Projekte:
-In diesem Abschnitt werden die bemerkenswertesten Projekte des Entwicklers angezeigt. Jedes Projekt enthält eine Beschreibung, Bilder und Links zu weiteren Informationen.
+Jedes Projekt enthält eine Beschreibung, Bilder und Links zu weiteren Informationen.
 
 <p align='left'>
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200186369520193677/gfn-web-proyekte.gif?ex=65c543a8&is=65b2cea8&hm=86b836b793e9d48d39a07be9d21c5c1e32908904ae1f4d2c40f60c75c46b46f7&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
 
 ## Blog:
-Dieser Abschnitt bietet aktuelle Informationen über die Arbeit und Aktivitäten des Entwicklers.
+Aktuelle Informationen über die Arbeit und Aktivitäten des Entwicklers.
 
 <p align='left'>
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200188743596912730/gfn-web-blog.gif?ex=65c545de&is=65b2d0de&hm=08a827b17714b25a240d19e5feff6249ddafda4d38a578f3c8f957c1b75cea15&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
 
 ## Kontakte:
-In diesem Abschnitt finden Sie Informationen zur Kontaktaufnahme mit dem Entwickler.
+Informationen zur Kontaktaufnahme mit dem Entwickler.
 
 <p align='left'>
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200189462144102470/gfn-web-kontakte.gif?ex=65c5468a&is=65b2d18a&hm=797338a827d8e9f424c02f66d1e56c7948b7fc1b9fbb815249b4cf6aff358afe&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
 
-## Soziale Medien:
-Dieser Abschnitt enthält Links zu den Social-Media-Profilen des Entwicklers.
+## Soziale Medien: 
+Links zu den Social-Media-Profilen des Entwicklers. 
+## Download: 
+Dieser Abschnitt enthält einen Link zum Herunterladen einer Datei im PDF-Format.:
 
 <p align='left'>
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200192972071895140/gfn-web-soziale.gif?ex=65c549cf&is=65b2d4cf&hm=dc65575ba231e8f427385488bb2e302f561dabcd7c78f70f9dea7dda9c560c52&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
