@@ -23,12 +23,6 @@ const LF10aV2 Project = {
 In diesem Webportfolio wurde der Code unter Verwendung der neuesten Webentwicklungstechniken und -standards geschrieben.
 Die Website ist vollständig responsiv, d. h. sie passt sich an jedes Gerät an, sei es ein Desktop, ein Tablet oder ein Smartphone.
 
-## Durchführung!
-
-<p align='left'>
-<img src="https://media.giphy.com/media/gh0RRgkTXedvF0pDc0/giphy.gif" width="280" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></img></p>
-<p align="left">
-
 ## Startseite:
 In diesem Abschnitt werden der Entwickler und seine Arbeit vorgestellt. Enthält eine kurze Biografie, eine Liste der Fähigkeiten und eine Projektgalerie.
 
@@ -71,10 +65,8 @@ Informationen zur Kontaktaufnahme mit dem Entwickler.
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200189462144102470/gfn-web-kontakte.gif?ex=65c5468a&is=65b2d18a&hm=797338a827d8e9f424c02f66d1e56c7948b7fc1b9fbb815249b4cf6aff358afe&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
 
-## Soziale Medien: 
-Links zu den Social-Media-Profilen des Entwicklers. 
-## Download: 
-Dieser Abschnitt enthält einen Link zum Herunterladen einer Datei im PDF-Format.:
+## Soziale Medien & Download:
+Links zu den Social-Media-Profilen des Entwicklers und einen Link zum Herunterladen mit einer Datei im PDF-Format.
 
 <p align='left'>
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200192972071895140/gfn-web-soziale.gif?ex=65c549cf&is=65b2d4cf&hm=dc65575ba231e8f427385488bb2e302f561dabcd7c78f70f9dea7dda9c560c52&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
@@ -85,36 +77,13 @@ Dieser Abschnitt enthält einen Link zum Herunterladen einer Datei im PDF-Format
 <p align='left'>
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200191096978940075/gfn-web-impressum.gif?ex=65c5480f&is=65b2d30f&hm=57abe92626481d41dcc1dca9130db79219912698574aac54048578bef3fe3eae&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
+
+## Responsiv:
+
+<p align='left'>
+<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200195649216462970/gfn-web-reponsive.gif?ex=65c54c4d&is=65b2d74d&hm=331fde20ed3087cac975db4f22a84f1b2442479a2f069fa85ca2a501336b17b3&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<p align="left">
 	
-## Das Webportfolio besteht aus folgenden Abschnitten:
-
-- `Startseite:` In diesem Abschnitt werden der Entwickler und seine Arbeit vorgestellt. Enthält eine kurze Biografie, eine Liste der Fähigkeiten und eine Projektgalerie.
-
-
-- `Über mich:` In diesem Abschnitt finden Sie detailliertere Informationen über den Entwickler, z. B. seine Ausbildung, Erfahrung und Ziele.
-
-
-- `Lebenslauf:` Dieser Abschnitt bietet eine Zusammenfassung der Erfahrungen und Fähigkeiten des Entwicklers.
-
-
-- `Projekte:` In diesem Abschnitt werden die bemerkenswertesten Projekte des Entwicklers angezeigt. Jedes Projekt enthält eine Beschreibung, Bilder und Links zu weiteren Informationen.
-
-
-- `Blog:` Dieser Abschnitt bietet aktuelle Informationen über die Arbeit und Aktivitäten des Entwicklers.
-
-
-- `Kontakte:` In diesem Abschnitt finden Sie Informationen zur Kontaktaufnahme mit dem Entwickler.
-
-
-- `Soziale Medien:` Dieser Abschnitt enthält Links zu den Social-Media-Profilen des Entwicklers.
-
-
-- `Download-Schaltfläche:` Dieser Abschnitt enthält einen Link zum Herunterladen einer Datei im PDF-Format.
-
-- `Impressum / Datenschutzerklärung / Geschäftsbedingungen Muster`
-
-
-
 Das Design des Webportfolios ist schlicht, aber elegant. Farben und Bilder verbinden sich harmonisch zu einem angenehmen Seherlebnis.
 Darüber hinaus ist die Website einfach zu navigieren, sodass Besucher schnell die gesuchten Informationen finden können.
 
@@ -142,6 +111,3 @@ er jedoch nicht für kommerzielle oder gewinnbringende Zwecke verwendet werden k
 | :-------- | :------- | :-------------------------------- |
 | `Darmstadt`      | `Do - 28.09.2023` | **16:30 Uhr**  |
 
-## Fertiges Projekt
-**Achtung,** dies ist eine Demo-Website: 
-[Projekt aufrufen](https://darwin-paz.ecuadorit.site/)
