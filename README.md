@@ -36,11 +36,18 @@ In diesem Abschnitt werden der Entwickler und seine Arbeit vorgestellt. Enthält
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200177916219248790/gfn-web-startseite.gif?ex=65c53bc9&is=65b2c6c9&hm=f765ffd7e391c2339ccd0285849da8d43c4240d3535f616f73562a73b37dd16c&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
 
-## Startseite:
-In diesem Abschnitt werden der Entwickler und seine Arbeit vorgestellt. Enthält eine kurze Biografie, eine Liste der Fähigkeiten und eine Projektgalerie.
+## Über mich:
+In diesem Abschnitt finden Sie detailliertere Informationen über den Entwickler, z. B. seine Ausbildung, Erfahrung und Ziele.
 
 <p align='left'>
-<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200177916219248790/gfn-web-startseite.gif?ex=65c53bc9&is=65b2c6c9&hm=f765ffd7e391c2339ccd0285849da8d43c4240d3535f616f73562a73b37dd16c&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200182008907829298/gfn-web-about.gif?ex=65c53f99&is=65b2ca99&hm=50b99784520090fcbbb90c047bc5cd0140e1326da7f2fb9ad66c4ca6f2c88964&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<p align="left">
+
+## Lebenslauf:
+Dieser Abschnitt bietet eine Zusammenfassung der Erfahrungen und Fähigkeiten des Entwicklers.
+
+<p align='left'>
+<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200182008907829298/gfn-web-about.gif?ex=65c53f99&is=65b2ca99&hm=50b99784520090fcbbb90c047bc5cd0140e1326da7f2fb9ad66c4ca6f2c88964&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
 
 ## Das Webportfolio besteht aus folgenden Abschnitten:
