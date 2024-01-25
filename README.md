@@ -50,6 +50,20 @@ Dieser Abschnitt bietet eine Zusammenfassung der Erfahrungen und Fähigkeiten de
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200185415945158818/gfn-web-curriculum.gif?ex=65c542c5&is=65b2cdc5&hm=42c7cdc302a193b2f701b9034e52e1cab8f52f5f622a56cca64abc0dcd8ea705&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
 
+## Projekte:
+In diesem Abschnitt werden die bemerkenswertesten Projekte des Entwicklers angezeigt. Jedes Projekt enthält eine Beschreibung, Bilder und Links zu weiteren Informationen.
+
+<p align='left'>
+<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200186369520193677/gfn-web-proyekte.gif?ex=65c543a8&is=65b2cea8&hm=86b836b793e9d48d39a07be9d21c5c1e32908904ae1f4d2c40f60c75c46b46f7&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<p align="left">
+
+## Blog:
+Dieser Abschnitt bietet aktuelle Informationen über die Arbeit und Aktivitäten des Entwicklers.
+
+<p align='left'>
+<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200185415945158818/gfn-web-curriculum.gif?ex=65c542c5&is=65b2cdc5&hm=42c7cdc302a193b2f701b9034e52e1cab8f52f5f622a56cca64abc0dcd8ea705&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<p align="left">
+
 ## Das Webportfolio besteht aus folgenden Abschnitten:
 
 - `Startseite:` In diesem Abschnitt werden der Entwickler und seine Arbeit vorgestellt. Enthält eine kurze Biografie, eine Liste der Fähigkeiten und eine Projektgalerie.
