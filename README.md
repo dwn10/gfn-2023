@@ -64,6 +64,19 @@ Dieser Abschnitt bietet aktuelle Informationen über die Arbeit und Aktivitäten
 <img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200188743596912730/gfn-web-blog.gif?ex=65c545de&is=65b2d0de&hm=08a827b17714b25a240d19e5feff6249ddafda4d38a578f3c8f957c1b75cea15&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
 
+## Kontakte:
+In diesem Abschnitt finden Sie Informationen zur Kontaktaufnahme mit dem Entwickler.
+
+<p align='left'>
+<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200188743596912730/gfn-web-blog.gif?ex=65c545de&is=65b2d0de&hm=08a827b17714b25a240d19e5feff6249ddafda4d38a578f3c8f957c1b75cea15&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<p align="left">
+
+## Impressum / Datenschutzerklärung / Geschäftsbedingungen Muster:
+
+<p align='left'>
+<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200191096978940075/gfn-web-impressum.gif?ex=65c5480f&is=65b2d30f&hm=57abe92626481d41dcc1dca9130db79219912698574aac54048578bef3fe3eae&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<p align="left">
+	
 ## Das Webportfolio besteht aus folgenden Abschnitten:
 
 - `Startseite:` In diesem Abschnitt werden der Entwickler und seine Arbeit vorgestellt. Enthält eine kurze Biografie, eine Liste der Fähigkeiten und eine Projektgalerie.
