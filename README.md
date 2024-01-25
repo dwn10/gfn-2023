@@ -61,7 +61,7 @@ In diesem Abschnitt werden die bemerkenswertesten Projekte des Entwicklers angez
 Dieser Abschnitt bietet aktuelle Informationen über die Arbeit und Aktivitäten des Entwicklers.
 
 <p align='left'>
-<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200185415945158818/gfn-web-curriculum.gif?ex=65c542c5&is=65b2cdc5&hm=42c7cdc302a193b2f701b9034e52e1cab8f52f5f622a56cca64abc0dcd8ea705&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200188743596912730/gfn-web-blog.gif?ex=65c545de&is=65b2d0de&hm=08a827b17714b25a240d19e5feff6249ddafda4d38a578f3c8f957c1b75cea15&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
 
 ## Das Webportfolio besteht aus folgenden Abschnitten:
