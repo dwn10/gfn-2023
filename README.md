@@ -29,6 +29,20 @@ Die Website ist vollständig responsiv, d. h. sie passt sich an jedes Gerät an,
 <img src="https://media.giphy.com/media/gh0RRgkTXedvF0pDc0/giphy.gif" width="280" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></img></p>
 <p align="left">
 
+## Startseite:
+In diesem Abschnitt werden der Entwickler und seine Arbeit vorgestellt. Enthält eine kurze Biografie, eine Liste der Fähigkeiten und eine Projektgalerie.
+
+<p align='left'>
+<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200177916219248790/gfn-web-startseite.gif?ex=65c53bc9&is=65b2c6c9&hm=f765ffd7e391c2339ccd0285849da8d43c4240d3535f616f73562a73b37dd16c&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<p align="left">
+
+## Startseite:
+In diesem Abschnitt werden der Entwickler und seine Arbeit vorgestellt. Enthält eine kurze Biografie, eine Liste der Fähigkeiten und eine Projektgalerie.
+
+<p align='left'>
+<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200177916219248790/gfn-web-startseite.gif?ex=65c53bc9&is=65b2c6c9&hm=f765ffd7e391c2339ccd0285849da8d43c4240d3535f616f73562a73b37dd16c&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<p align="left">
+
 ## Das Webportfolio besteht aus folgenden Abschnitten:
 
 - `Startseite:` In diesem Abschnitt werden der Entwickler und seine Arbeit vorgestellt. Enthält eine kurze Biografie, eine Liste der Fähigkeiten und eine Projektgalerie.
