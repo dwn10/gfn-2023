@@ -68,7 +68,7 @@ Dieser Abschnitt bietet aktuelle Informationen über die Arbeit und Aktivitäten
 In diesem Abschnitt finden Sie Informationen zur Kontaktaufnahme mit dem Entwickler.
 
 <p align='left'>
-<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200188743596912730/gfn-web-blog.gif?ex=65c545de&is=65b2d0de&hm=08a827b17714b25a240d19e5feff6249ddafda4d38a578f3c8f957c1b75cea15&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
+<img src="https://cdn.discordapp.com/attachments/1185882189393575976/1200189462144102470/gfn-web-kontakte.gif?ex=65c5468a&is=65b2d18a&hm=797338a827d8e9f424c02f66d1e56c7948b7fc1b9fbb815249b4cf6aff358afe&" width="588" height="306" frameBorder="0" class="" allowFullScreen></img></p>
 <p align="left">
 
 ## Impressum / Datenschutzerklärung / Geschäftsbedingungen Muster:
