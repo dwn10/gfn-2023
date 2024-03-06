@@ -26,7 +26,7 @@ Die Website ist vollständig responsiv, d. h. sie passt sich an jedes Gerät an,
 ## Startseite:
 In diesem Abschnitt werden der Entwickler und seine Arbeit vorgestellt. Enthält eine kurze Biografie, eine Liste der Fähigkeiten und eine Projektgalerie.
 
-<a href="video"><img src="#" style="height: 50%; width:50%;"/></a>
+<a href="https://media.discordapp.net/attachments/1185882189393575976/1200177916219248790/gfn-web-startseite.gif?ex=65f36049&is=65e0eb49&hm=c166cb3a793ba8495501391fc78c698c2d008d4316ec031557a4765bd098a6d3&=&width=1062&height=597"><img src="https://media.discordapp.net/attachments/1214730549969813504/1214895370916724756/start.JPG?ex=65fac67c&is=65e8517c&hm=3e86d5fc336f9e42b60959f0ec3f6a652abff5da215e52007e9a44efe469c82d&=&format=webp&width=1060&height=597" style="height: 50%; width:50%;"/></a>
 
 ## Über mich:
 Hier finden Sie detailliertere Informationen über den Entwickler, z. B. seine Ausbildung, Erfahrung und Ziele.
