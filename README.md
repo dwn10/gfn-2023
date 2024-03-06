@@ -31,7 +31,7 @@ In diesem Abschnitt werden der Entwickler und seine Arbeit vorgestellt. Enthält
 ## Über mich:
 Hier finden Sie detailliertere Informationen über den Entwickler, z. B. seine Ausbildung, Erfahrung und Ziele.
 
-<a href="video"><img src="#" style="height: 50%; width:50%;"/></a>
+<a href="https://media.discordapp.net/attachments/1185882189393575976/1200182008907829298/gfn-web-about.gif?ex=65f36419&is=65e0ef19&hm=70ba8963d1184e252584cf101a1391d7c3ce2817fcf68e19ba8fd9287880b76e&=&width=646&height=363"><img src="https://media.discordapp.net/attachments/1214730549969813504/1214896308754710588/about.JPG?ex=65fac75b&is=65e8525b&hm=fb9cbc5df9383a1b367917b59a20673d642723ca16fb27a7eb6baac00bed0cb1&=&format=webp&width=1059&height=597" style="height: 50%; width:50%;"/></a>
 
 ## Lebenslauf:
 Zusammenfassung der Erfahrungen und Fähigkeiten des Entwicklers.
