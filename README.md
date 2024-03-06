@@ -36,35 +36,35 @@ Hier finden Sie detailliertere Informationen über den Entwickler, z. B. seine A
 ## Lebenslauf:
 Zusammenfassung der Erfahrungen und Fähigkeiten des Entwicklers.
 
-<a href="video"><img src="#" style="height: 50%; width:50%;"/></a>
+<a href="video"><img src="https://media.discordapp.net/attachments/1214730549969813504/1214899080661176321/Lebenslauf.JPG?ex=65fac9f0&is=65e854f0&hm=899597029c275a2f6328a02911028669f8f7484461b10d181a8b4fc8f80abfdf&=&format=webp&width=1054&height=592" style="height: 50%; width:50%;"/></a>
 
 ## Projekte:
 Jedes Projekt enthält eine Beschreibung, Bilder und Links zu weiteren Informationen.
 
-<a href="video"><img src="#" style="height: 50%; width:50%;"/></a>
+<a href="video"><img src="https://media.discordapp.net/attachments/1214730549969813504/1214899081562820608/projekte.JPG?ex=65fac9f0&is=65e854f0&hm=675d6658a3f5938d6d0aa78a166c013f8e301d58b96084870517fb53587ccc5b&=&format=webp&width=1053&height=591" style="height: 50%; width:50%;"/></a>
 
 ## Blog:
 Aktuelle Informationen über die Arbeit und Aktivitäten des Entwicklers.
 
-<a href="video"><img src="#" style="height: 50%; width:50%;"/></a>
+<a href="video"><img src="https://media.discordapp.net/attachments/1214730549969813504/1214899082297085972/blog.JPG?ex=65fac9f0&is=65e854f0&hm=2eb93421c9469d85909c7a183f41c57df3502192a9b11df64fdaf2cbb1db8d8a&=&format=webp&width=1054&height=592" style="height: 50%; width:50%;"/></a>
 
 ## Kontakte:
 Informationen zur Kontaktaufnahme mit dem Entwickler.
 
-<a href="video"><img src="#" style="height: 50%; width:50%;"/></a>
+<a href="video"><img src="https://media.discordapp.net/attachments/1214730549969813504/1214899080443076648/kontakt.JPG?ex=65fac9f0&is=65e854f0&hm=f1b737e808ed9134da26d442a32927784be6005da5ff661bf6c2f572de0acfd9&=&format=webp&width=1054&height=594" style="height: 50%; width:50%;"/></a>
 
 ## Soziale Medien & Download:
 Links zu den Social-Media-Profilen des Entwicklers und einen Link zum Herunterladen mit einer Datei im PDF-Format.
 
-<a href="video"><img src="#" style="height: 50%; width:50%;"/></a>
+<a href="video"><img src="https://media.discordapp.net/attachments/1214730549969813504/1214899081143394335/medien-download-1.JPG?ex=65fac9f0&is=65e854f0&hm=b248a31f7faed91b5dd5d48518fb0fdb9fe4d053f2ec7369316a6e34491e8e5f&=&format=webp&width=1054&height=592" style="height: 50%; width:50%;"/></a>
 
 ## Impressum / Datenschutzerklärung / Geschäftsbedingungen Muster:
 
-<a href="video"><img src="#" style="height: 50%; width:50%;"/></a>
+<a href="video"><img src="https://media.discordapp.net/attachments/1214730549969813504/1214899079956660264/impressum.JPG?ex=65fac9f0&is=65e854f0&hm=95eb3b56c971ced066e62e336f3ff3dfe5fea75ed25726b4663ec70f7b82b7ff&=&format=webp&width=1052&height=592" style="height: 50%; width:50%;"/></a>
 
 ## Responsiv:
 
-<a href="video"><img src="#" style="height: 50%; width:50%;"/></a>
+<a href="video"><img src="https://media.discordapp.net/attachments/1214730549969813504/1214899081877659668/responsiv.JPG?ex=65fac9f0&is=65e854f0&hm=aa00cd1bdd1b1413a675c50f140448ad34c04291f4027445bee5d9d02093db8a&=&format=webp&width=1053&height=592" style="height: 50%; width:50%;"/></a>
 	
 Das Design des Webportfolios ist schlicht, aber elegant. Farben und Bilder verbinden sich harmonisch zu einem angenehmen Seherlebnis.
 Darüber hinaus ist die Website einfach zu navigieren, sodass Besucher schnell die gesuchten Informationen finden können.
