@@ -27,7 +27,7 @@ Die Website ist vollständig responsiv, d. h. sie passt sich an jedes Gerät an,
 In diesem Abschnitt werden der Entwickler und seine Arbeit vorgestellt. Enthält eine kurze Biografie, eine Liste der Fähigkeiten und eine Projektgalerie.
 `>> IMG + VIDEO <<`
 
-<a href="#"><img src="https://media.discordapp.net/attachments/1214730549969813504/1214895370916724756/start.JPG?ex=660d3b7c&is=65fac67c&hm=6f459035deb7cf2451d256e2971683a6cc5e50b2034495ad2a627cd62b6c8ca8&=&format=webp&width=1060&height=597" style="height: 80%; width:80%;"/></a>
+<a href="https://media.discordapp.net/attachments/1185882189393575976/1200177916219248790/gfn-web-startseite.gif?ex=6605d549&is=65f36049&hm=1599a47a22ee156e0e4993975f6fcebcddd648aeb8b417cfcbcabe65c598a393&=&width=1062&height=597"><img src="https://media.discordapp.net/attachments/1214730549969813504/1214895370916724756/start.JPG?ex=660d3b7c&is=65fac67c&hm=6f459035deb7cf2451d256e2971683a6cc5e50b2034495ad2a627cd62b6c8ca8&=&format=webp&width=1060&height=597" style="height: 80%; width:80%;"/></a>
 
 ## Über mich:
 Hier finden Sie detailliertere Informationen über den Entwickler, z. B. seine Ausbildung, Erfahrung und Ziele.
