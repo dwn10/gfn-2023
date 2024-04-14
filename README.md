@@ -20,13 +20,13 @@ const LF10aV2 Project = {
 
 ## Web Entwicklung
 - Diese Sprachen sind vielseitig und ermöglichen Ihnen die Erstellung attraktiver und funktionaler Webdesigns.
-In diesem Webportfolio wurde der Code unter Verwendung der neuesten Webentwicklungstechniken und -standards geschrieben.
-Die Website ist vollständig responsiv, d. h. sie passt sich an jedes Gerät an, sei es ein Desktop, ein Tablet oder ein Smartphone.
+- In diesem Webportfolio wurde der Code unter Verwendung der neuesten Webentwicklungstechniken und -standards geschrieben.
+- Die Website ist vollständig responsiv, d. h. sie passt sich an jedes Gerät an, sei es ein Desktop, ein Tablet oder ein Smartphone.
 
 ## Startseite:
 In diesem Abschnitt werden der Entwickler und seine Arbeit vorgestellt. Enthält eine kurze Biografie, eine Liste der Fähigkeiten und eine Projektgalerie.
 
-<a href="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-startseite.gif"><img src="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-startseite.gif" style="height: 55%; width:80%;"/></a>
+<a href="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-startseite.gif"><img src="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-startseite.gif" style="height: 46%; width:46%;"/></a>
 
 ## Über mich:
 Hier finden Sie detailliertere Informationen über den Entwickler, z. B. seine Ausbildung, Erfahrung und Ziele.
@@ -41,7 +41,7 @@ Zusammenfassung der Erfahrungen und Fähigkeiten des Entwicklers.
 ## Projekte:
 Jedes Projekt enthält eine Beschreibung, Bilder und Links zu weiteren Informationen.
 
-<a href="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-proyekte.gif"><img src="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-proyekte.gif" style="height: 80%; width:80%;"/></a>
+<a href="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-proyekte.gif"><img src="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-proyekte.gif" style="height: 46%; width:46%;"/></a>
 
 ## Blog:
 Aktuelle Informationen über die Arbeit und Aktivitäten des Entwicklers.
@@ -56,7 +56,7 @@ Informationen zur Kontaktaufnahme mit dem Entwickler.
 ## Soziale Medien & Download:
 Links zu den Social-Media-Profilen des Entwicklers und einen Link zum Herunterladen mit einer Datei im PDF-Format.
 
-<a href="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-soziale.gif"><img src="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-soziale.gif" style="height: 80%; width:80%;"/></a>
+<a href="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-soziale.gif"><img src="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-soziale.gif" style="height: 46%; width:46%;"/></a>
 
 ## Impressum / Datenschutzerklärung / Geschäftsbedingungen Muster:
 
