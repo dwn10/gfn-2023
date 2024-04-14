@@ -25,47 +25,46 @@ Die Website ist vollständig responsiv, d. h. sie passt sich an jedes Gerät an,
 
 ## Startseite:
 In diesem Abschnitt werden der Entwickler und seine Arbeit vorgestellt. Enthält eine kurze Biografie, eine Liste der Fähigkeiten und eine Projektgalerie.
-`>> IMG + VIDEO <<`
 
-<a href="#"><img src="#" style="height: 80%; width:80%;"/></a>
+<a href="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-startseite.gif"><img src="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-startseite.gif" style="height: 80%; width:80%;"/></a>
 
 ## Über mich:
 Hier finden Sie detailliertere Informationen über den Entwickler, z. B. seine Ausbildung, Erfahrung und Ziele.
 
-<a href="#"><img src="#" style="height: 80%; width:80%;"/></a>
+<a href="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-about.gif"><img src="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-about.gif" style="height: 80%; width:80%;"/></a>
 
 ## Lebenslauf:
 Zusammenfassung der Erfahrungen und Fähigkeiten des Entwicklers.
 
-<a href="#"><img src="#" style="height: 80%; width:80%;"/></a>
+<a href="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-curriculum.gif"><img src="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-curriculum.gif" style="height: 80%; width:80%;"/></a>
 
 ## Projekte:
 Jedes Projekt enthält eine Beschreibung, Bilder und Links zu weiteren Informationen.
 
-<a href="#"><img src="#" style="height: 80%; width:80%;"/></a>
+<a href="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-proyekte.gif"><img src="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-proyekte.gif" style="height: 80%; width:80%;"/></a>
 
 ## Blog:
 Aktuelle Informationen über die Arbeit und Aktivitäten des Entwicklers.
 
-<a href="#"><img src="#" style="height: 80%; width:80%;"/></a>
+<a href="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-blog.gif"><img src="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-blog.gif" style="height: 80%; width:80%;"/></a>
 
 ## Kontakte:
 Informationen zur Kontaktaufnahme mit dem Entwickler.
 
-<a href="#"><img src="#" style="height: 80%; width:80%;"/></a>
+<a href="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-kontakte.gif"><img src="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-kontakte.gif" style="height: 80%; width:80%;"/></a>
 
 ## Soziale Medien & Download:
 Links zu den Social-Media-Profilen des Entwicklers und einen Link zum Herunterladen mit einer Datei im PDF-Format.
 
-<a href="#"><img src="#" style="height: 80%; width:80%;"/></a>
+<a href="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-soziale.gif"><img src="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-soziale.gif" style="height: 80%; width:80%;"/></a>
 
 ## Impressum / Datenschutzerklärung / Geschäftsbedingungen Muster:
 
-<a href="#"><img src="#" style="height: 80%; width:80%;"/></a>
+<a href="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-impressum.gif"><img src="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-impressum.gif" style="height: 80%; width:80%;"/></a>
 
 ## Responsiv:
 
-<a href="#"><img src="#" style="height: 80%; width:80%;"/></a>
+<a href="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-reponsive.gif"><img src="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-reponsive.gif" style="height: 80%; width:80%;"/></a>
 	
 Das Design des Webportfolios ist schlicht, aber elegant. Farben und Bilder verbinden sich harmonisch zu einem angenehmen Seherlebnis.
 Darüber hinaus ist die Website einfach zu navigieren, sodass Besucher schnell die gesuchten Informationen finden können.
