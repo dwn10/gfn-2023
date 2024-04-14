@@ -26,7 +26,7 @@ Die Website ist vollständig responsiv, d. h. sie passt sich an jedes Gerät an,
 ## Startseite:
 In diesem Abschnitt werden der Entwickler und seine Arbeit vorgestellt. Enthält eine kurze Biografie, eine Liste der Fähigkeiten und eine Projektgalerie.
 
-<a href="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-startseite.gif"><img src="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-startseite.gif" style="height: 80%; width:80%;"/></a>
+<a href="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-startseite.gif"><img src="https://github.com/dwn10/gfn-2023/blob/main/assets/img/gfn-web-startseite.gif" style="height: 55%; width:80%;"/></a>
 
 ## Über mich:
 Hier finden Sie detailliertere Informationen über den Entwickler, z. B. seine Ausbildung, Erfahrung und Ziele.
